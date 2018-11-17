@@ -5,6 +5,8 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketTimeoutException;
 import java.util.Comparator;
+import java.util.PriorityQueue;
+import java.util.Queue;
 
 
 public class MyServer implements Server {
@@ -46,6 +48,9 @@ public class MyServer implements Server {
         serverSocket.setSoTimeout(1000);
         System.out.println("The server is up.");
 
+        //TODO: set appropriate capacity
+        Queue<RequestEnvelope> priorityQueue = new PriorityQueue<>(200, Comparator);
+
         while (!this.stop) {
             try {
                 Socket aClient = serverSocket.accept();
@@ -54,10 +59,15 @@ public class MyServer implements Server {
 
                 BufferedReader reader = new BufferedReader(new InputStreamReader(aClient.getInputStream()));
                 String request = readRequest(reader);
+                RequestEnvelope envelope = new RequestEnvelope();
+                envelope.clientSocket = aClient;
+                envelope.request = request;
+                priorityQueue.add(envelope);
 
 
-                clientHandler.handle(aClient.getInputStream(), aClient.getOutputStream());
-                aClient.close();
+
+//                clientHandler.handle(aClient.getInputStream(), aClient.getOutputStream());
+//                aClient.close();
             } catch (SocketTimeoutException e) {
             }
         }

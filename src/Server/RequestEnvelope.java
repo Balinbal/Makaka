@@ -1,14 +1,9 @@
 package Server;
 
-import java.io.OutputStream;
-import java.io.InputStream;
+import java.net.Socket;
 
 public class RequestEnvelope {
 
-    public InputStream inFromClient;
-    public OutputStream outToClient;
+    public Socket clientSocket;
     public String request;
-
-
-
 }
