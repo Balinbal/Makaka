@@ -3,6 +3,7 @@ package Server.ThreadPool;
 import ClientHandler.ClientHandler;
 import Server.RequestEnvelope;
 
+import java.io.Console;
 import java.io.IOException;
 
 public class ClientHandlerRunnable implements Runnable {
@@ -18,14 +19,13 @@ public class ClientHandlerRunnable implements Runnable {
 
     @Override
     public void run(){
-        System.out.println("task1 started");
         try {
+            System.out.println("Handling " + this.envelope.request);
             this.handler.handle(
                     this.envelope.clientSocket.getInputStream(),
                     this.envelope.clientSocket.getOutputStream(),
                     this.envelope.request);
         }
         catch (IOException e) {}
-        System.out.println("task1 finished");
     }
 }

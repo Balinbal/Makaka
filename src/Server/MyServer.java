@@ -1,5 +1,7 @@
 package Server;
 import ClientHandler.ClientHandler;
+import Server.ThreadPool.PriorityJobScheduler;
+
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -11,21 +13,12 @@ import java.util.Queue;
 
 public class MyServer implements Server {
     static int port = 32;
+    private static final int poolSize = 5;
+    private static final int queueSize = 1000;
     private ServerSocket serverSocket;
     private boolean stop = false;
 
 
-    public static Comparator<RequestEnvelope> Comparator = new Comparator<RequestEnvelope>(){
-        @Override
-        public int compare(RequestEnvelope l, RequestEnvelope r) {
-            String[] lValueSplitted = l.request.split("\n");
-            int lvalue = lValueSplitted[0].length() * lValueSplitted.length;
-            String[] rValueSplitted = r.request.split("\n");
-            int rvalue = rValueSplitted[0].length() * rValueSplitted.length;
-
-            return rvalue - lvalue;
-        }
-    };
 
     public MyServer(int port) {
         this.port = port;
@@ -48,8 +41,7 @@ public class MyServer implements Server {
         serverSocket.setSoTimeout(1000);
         System.out.println("The server is up.");
 
-        //TODO: set appropriate capacity
-        Queue<RequestEnvelope> priorityQueue = new PriorityQueue<>(200, Comparator);
+        PriorityJobScheduler poolScheduler = new PriorityJobScheduler(poolSize, queueSize, clientHandler);
 
         while (!this.stop) {
             try {
@@ -62,12 +54,7 @@ public class MyServer implements Server {
                 RequestEnvelope envelope = new RequestEnvelope();
                 envelope.clientSocket = aClient;
                 envelope.request = request;
-                priorityQueue.add(envelope);
-
-
-
-//                clientHandler.handle(aClient.getInputStream(), aClient.getOutputStream());
-//                aClient.close();
+                poolScheduler.scheduleJob(envelope);
             } catch (SocketTimeoutException e) {
             }
         }
