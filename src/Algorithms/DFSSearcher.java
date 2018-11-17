@@ -18,20 +18,19 @@ public class DFSSearcher<T, P> implements Searcher<T, P> {
         State<T, P> rootSolution = searchable.getInitialState();
         stack.push(rootSolution);
         // As long as we have states that we need to work on
-        State<T, P> currentState;
         while (!stack.empty()) {
-            currentState = stack.pop();
-            visitedStates.add(currentState);
+            searchable.setCurrentState(stack.pop());
+            visitedStates.add(searchable.getCurrentState());
 
-            if (currentState.isGoal()) {
+            if (searchable.getCurrentState().isGoal()) {
                 // Found the goal, return the back track from solution
-                return new Solution<P>(currentState);
+                return new Solution<P>(searchable.getCurrentState());
             }
-            ArrayList<State<T, P>> possibleStates = currentState.getAllNeighbors();
+            ArrayList<State<T, P>> possibleStates = searchable.getAllPossibleStates();
 
             for (State<T, P> state : possibleStates) {
                 if (!visitedStates.contains(state) && !stack.contains(state)) {
-                    state.setCameFrom(currentState);
+                    state.setCameFrom(searchable.getCurrentState());
                     visitedStates.add(state);
                     stack.push(state);
                 }

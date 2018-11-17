@@ -29,11 +29,10 @@ public class MyCHandler implements ClientHandler {
     }
 
     @Override
-    public void handle(InputStream inFromClient, OutputStream outToClient) {
-
+    public void handle(InputStream inFromClient, OutputStream outToClient, String request) {
+        System.out.println(request + " - Handle ");
         this.reader = new BufferedReader(new InputStreamReader(inFromClient));
         this.writer = new PrintWriter(outToClient);
-        String request = this.readRequest();
 
         if (request != null) {
             String problemId = String.valueOf(request.hashCode());
@@ -66,30 +65,6 @@ public class MyCHandler implements ClientHandler {
         if (this.writer != null) {
             this.writer.close();
         }
-    }
-
-
-    private String readRequest() {
-
-        StringBuilder request = new StringBuilder();
-        String tmpLine;
-
-        try {
-            if (this.reader != null) {
-                while (!(tmpLine = this.reader.readLine()).equals("done")) {
-                    request = request.append(tmpLine);
-                    request = request.append(System.lineSeparator());
-                }
-//                System.out.println("Problem" + request.toString());
-                return request.toString();
-            }
-        } catch (IOException exception) {
-            System.out.println(exception.toString());
-        }
-
-        System.out.println("ERROR: Failed to read client request.");
-        return null;
-
     }
 
     private void writeResponse(Solution<Position> response) {
