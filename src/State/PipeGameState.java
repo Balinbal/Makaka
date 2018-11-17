@@ -7,6 +7,8 @@ import java.util.ArrayList;
 
 public class PipeGameState extends State<MatrixBoard, Position> {
 
+    private double cost;
+
     // C-TOR
 
     public PipeGameState(MatrixBoard state) {
@@ -72,23 +74,6 @@ public class PipeGameState extends State<MatrixBoard, Position> {
         }};
     }
 
-//  Returns a backTrace of the states for the algorithms
-//    public Solution<MatrixBoard> backTrace() {
-//        Solution<MatrixBoard> returnBackTrace = new Solution<>();
-//        State<MatrixBoard, Position> cameFromState =this.getCameFrom();
-//        MatrixBoard tmp = cameFromState.getState();
-//        Character pipeVal = ' ';
-//        // TODO : Do we need the first protection at the while loop ?
-//        while (!pipeVal.equals('s') || tmp != null) {
-//            returnBackTrace.add(tmp);
-//            cameFromState = cameFromState.getCameFrom();
-//            tmp = cameFromState.getState();
-//            Position currentPosition = cameFromState.getCurrentPosition();
-//            pipeVal = currentPosition != null ? tmp.getPipe(currentPosition).getPipeVal() : null;
-//        }
-//        Collections.reverse(returnBackTrace);
-//        return returnBackTrace;
-//    }
 
     public ArrayList<State<MatrixBoard, Position>> getAllNeighbors() {
         ArrayList<State<MatrixBoard, Position>> allNeighbors = null;
@@ -110,7 +95,7 @@ public class PipeGameState extends State<MatrixBoard, Position> {
                         && !tmpBoard.getPipe(direction).isEmpty()
                         &&( getCameFrom() == null || ( getCameFrom() != null
                         && !(direction.equals(getCameFrom().getCurrentPosition()))))) {
-                    for (Integer rotations = 0; rotations < maxRotations; rotations++ ) {
+                    for (Integer rotations = 0; rotations <= maxRotations; rotations++ ) {
                         if (rotations > 0) {
                             // with each iteration rotate the pipe in the location of the direction
                             Pipe pipe = tmpBoard.getPipe(direction);
@@ -124,7 +109,6 @@ public class PipeGameState extends State<MatrixBoard, Position> {
 
                             neighbor.updateState(new PipeGameStep(direction, rotations));
                             allNeighbors.add(neighbor);
-//                            break;
                         }
                     }
 
@@ -171,7 +155,6 @@ public class PipeGameState extends State<MatrixBoard, Position> {
             Position currentPosition = this.getCurrentPosition();
             // Calculate the absolute value of the way from current position to the goal
 //            cost = Math.abs(currentPosition.getRow() - endPosition.getRow()) + Math.abs(currentPosition.getCol() - endPosition.getCol());
-//            int rotations = this.getStep() != null ? ((PipeGameStep)this.getStep()).getRotations() : 0;
             cost = Math.abs(Point.distance(
                     currentPosition.getRow(),
                     currentPosition.getCol(),
@@ -181,5 +164,13 @@ public class PipeGameState extends State<MatrixBoard, Position> {
             System.out.println(String.join(": ", "PipeGameState.generateCost(): Error details" , ex.getMessage()));
         }
         return cost;
+    }
+
+    public double getCost() {
+        return cost;
+    }
+
+    public void setCost(double cost) {
+        this.cost = cost;
     }
 }

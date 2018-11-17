@@ -4,6 +4,6 @@ import java.io.OutputStream;
 
 public interface ClientHandler {
 
-    void handle(InputStream inFromClient, OutputStream outToClient);
+    void handle(InputStream inFromClient, OutputStream outToClient, String request);
 
 }

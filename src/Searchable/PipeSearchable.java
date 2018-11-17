@@ -64,9 +64,9 @@ public class PipeSearchable implements Searchable<MatrixBoard, Position> {
             if (state1.getCurrentPosition().equals(state2.getCurrentPosition())) {
                 int rotations1 = state1.getStep() != null ? ((PipeGameStep)state1.getStep()).getRotations() : 0;
                 int rotations2 = state2.getStep() != null ? ((PipeGameStep)state2.getStep()).getRotations() : 0;
-                return Double.compare(rotations2, rotations1);
+                return Double.compare(rotations1, rotations2);
             } else {
-                return Double.compare(state2.generateCost(), state1.generateCost());
+                return Double.compare(state1.generateCost(), state2.generateCost());
             }
         }
     }

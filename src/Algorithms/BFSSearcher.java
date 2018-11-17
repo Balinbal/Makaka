@@ -23,23 +23,22 @@ public class BFSSearcher<T, P> implements Searcher<T, P> {
         //Run the algorithm while the queue is not empty
         while(!queue.isEmpty())
         {
-            State<T, P> currentState;
+            searchable.setCurrentState(queue.poll());
             //get the first one in queue
-            currentState = queue.poll();
-            visitedStates.add(currentState);
-            searchable.setCurrentState(currentState);
+            visitedStates.add(searchable.getCurrentState());
+            searchable.setCurrentState(searchable.getCurrentState());
             //check if the current state is the goal
-            if (currentState.isGoal())
+            if (searchable.getCurrentState().isGoal())
             {
                 //return the backTrace of the current State
-                return new Solution<P>(currentState);
+                return new Solution<P>(searchable.getCurrentState());
             }
             //Create array list to the possible States
             ArrayList<State<T, P>> possibleStates = searchable.getAllPossibleStates();
             for (State<T, P> state : possibleStates)
             {
                 //to have all the states that I came from them.
-                state.setCameFrom(currentState);
+                state.setCameFrom(searchable.getCurrentState());
                 //check if the possible state is already in the queue and visited state
                 if(!queue.contains(state) && !visitedStates.contains(state))
                 {
