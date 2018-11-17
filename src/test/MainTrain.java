@@ -13,21 +13,22 @@ public class MainTrain {
             exec.execute(() -> {
                 TestServer.runClient(5555, "s|g");
             });
-            Thread.sleep(100);
+            Thread.sleep(50);
             exec.execute(() -> {
                 TestServer.runClient(5555, "s||g");
             });
+            Thread.sleep(50);
             exec.execute(() -> {
                 TestServer.runClient(5555, "s|g");
             });
-
-            exec.execute(() -> {
-                TestServer.runClient(5555, "s|||g");
-            });
+            Thread.sleep(50);
             exec.execute(() -> {
                 TestServer.runClient(5555, "s||g");
             });
-
+            Thread.sleep(50);
+            exec.execute(() -> {
+                TestServer.runClient(5555, "s||g");
+            });
             //TestServer.runClient(5555);
         } finally {
         }

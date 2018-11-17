@@ -25,7 +25,10 @@ public class ClientHandlerRunnable implements Runnable {
                     this.envelope.clientSocket.getInputStream(),
                     this.envelope.clientSocket.getOutputStream(),
                     this.envelope.request);
+            this.envelope.clientSocket.close();
         }
-        catch (IOException e) {}
+        catch (IOException e) {
+
+        }
     }
 }

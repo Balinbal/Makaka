@@ -30,7 +30,7 @@ public class MyCHandler implements ClientHandler {
 
     @Override
     public void handle(InputStream inFromClient, OutputStream outToClient, String request) {
-
+        System.out.println(request + " - Handle ");
         this.reader = new BufferedReader(new InputStreamReader(inFromClient));
         this.writer = new PrintWriter(outToClient);
 
