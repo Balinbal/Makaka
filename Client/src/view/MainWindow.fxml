@@ -16,6 +16,9 @@
 <!--</GridPane>-->
 
 
+<?import view.BoardDisplayer?>
+
+
 <BorderPane prefHeight="365.0" prefWidth="387.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="view.MainWindowController">
    <top>
       <MenuBar BorderPane.alignment="CENTER">
@@ -44,7 +47,7 @@
    <left>
       <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
          <children>
-            <Canvas height="248.0" width="384.0" />
+            <BoardDisplayer fx:id="boardDisplayer" height="300" width="300" pipeFileName="./resources/board/"/>
          </children>
       </VBox>
    </left>
