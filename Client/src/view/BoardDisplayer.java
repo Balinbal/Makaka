@@ -16,7 +16,19 @@ public class BoardDisplayer extends Canvas {
         redraw();
     }
 
+    public char[][] getBoard() {
+        return this.board;
+    }
     char[][] board;
+
+    public int getBoardHeight()
+    {
+        return board.length;
+    }
+
+    public int getBoardWidth() {
+        return board[0].length;
+    }
 
     public BoardDisplayer(){
         pipeImageFolder = new SimpleStringProperty();
@@ -58,25 +70,25 @@ public class BoardDisplayer extends Canvas {
         String imageName = null;
 
         switch (c){
-            case 's' :
+            case 'S' :
                  imageName ="s.jpg";
                  break;
-            case 'g' :
+            case 'G' :
                 imageName ="g.jpg";
                 break;
             case '7' :
                 imageName ="7.jpg";
                 break;
-            case 'f' :
+            case 'F' :
                 imageName ="f.jpg";
                 break;
             case '-' :
                 imageName ="horizontal.jpg";
                 break;
-            case 'j' :
+            case 'J' :
                 imageName ="j.jpg";
                 break;
-            case 'l' :
+            case 'L' :
                 imageName ="l.jpg";
                 break;
             case '|' :
