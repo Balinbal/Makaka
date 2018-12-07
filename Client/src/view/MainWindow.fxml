@@ -1,0 +1,11 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<!--<GridPane fx:controller="view.MainWindowControllerController"-->
+          <!--xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">-->
+<!--</GridPane>-->
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="view.MainWindowController" >
+</BorderPane>
