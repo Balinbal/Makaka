@@ -16,6 +16,57 @@ public class BoardDisplayer extends Canvas {
         redraw();
     }
 
+    @Override
+    public double minHeight(double width)
+    {
+        return 64;
+    }
+
+    @Override
+    public double maxHeight(double width)
+    {
+        return 1000;
+    }
+
+    @Override
+    public double prefHeight(double width) {
+        return width * this.board.length / this.board[0].length;
+    }
+
+    @Override
+    public double prefWidth(double height)
+    {
+        return height * this.board[0].length / this.board.length;
+
+    }
+
+    @Override
+    public double minWidth(double height)
+    {
+        return 64;
+    }
+
+    @Override
+    public double maxWidth(double height)
+    {
+        return 10000;
+    }
+
+    @Override
+    public boolean isResizable()
+    {
+        return true;
+    }
+
+    @Override
+    public void resize(double width, double height)
+    {
+        setWidth(width);
+        setHeight(height);
+        redraw();
+    }
+
+
     public char[][] getBoard() {
         return this.board;
     }
