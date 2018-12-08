@@ -11,6 +11,7 @@ import java.io.FileNotFoundException;
 
 public class BoardDisplayer extends Canvas {
 
+    private StringProperty pipeImageFolder;
     char[][] board;
 
 
@@ -96,7 +97,6 @@ public class BoardDisplayer extends Canvas {
         this.pipeImageFolder.set(pipeFileName);
     }
 
-    private StringProperty pipeImageFolder;
 
     public void redraw(){
         if(board != null)

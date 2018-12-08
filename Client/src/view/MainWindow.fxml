@@ -14,12 +14,10 @@
 <!--<GridPane fx:controller="view.MainWindowControllerController"-->
 <!--xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">-->
 <!--</GridPane>-->
-
-
 <?import view.BoardDisplayer?>
+<?import view.CustomBorderPane?>
 
-
-<BorderPane fx:id="borderPane" prefHeight="500.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="view.MainWindowController">
+<CustomBorderPane fx:id="borderPane" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MainWindowController" backgroundFolder="./resources/bg/">
    <top>
       <MenuBar BorderPane.alignment="CENTER">
         <menus>
@@ -45,7 +43,13 @@
       </MenuBar>
    </top>
    <center>
-            <BoardDisplayer fx:id="boardDisplayer" height="300" width="300" pipeFileName="./resources/board/"/>
+
+            <BoardDisplayer fx:id="boardDisplayer" height="300" width="300" pipeFileName="./resources/board/">
+                <BorderPane.margin>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            </BorderPane.margin>
+            </BoardDisplayer>
+
    </center>
    <bottom>
       <HBox prefHeight="78.0" prefWidth="328.0" BorderPane.alignment="CENTER">
@@ -71,4 +75,4 @@
          </children>
       </HBox>
    </bottom>
-</BorderPane>
+</CustomBorderPane>

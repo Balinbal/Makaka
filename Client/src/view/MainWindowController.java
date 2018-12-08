@@ -17,29 +17,18 @@ public class MainWindowController implements Initializable{
     BoardDisplayer boardDisplayer;
     BoardController controller;
     @FXML
-    BorderPane borderPane;
+    CustomBorderPane borderPane;
 
     public MainWindowController(){
         controller = new BoardController();
-
     }
 
-    public void changeBackground(String imagePath) throws FileNotFoundException {
 
-        Image bgImage = new Image(new FileInputStream(imagePath));
-        BackgroundSize bSize = new BackgroundSize(BackgroundSize.AUTO, BackgroundSize.AUTO, false, false, true, false);
-        Background background = new Background(new BackgroundImage(bgImage,
-                BackgroundRepeat.NO_REPEAT,
-                BackgroundRepeat.NO_REPEAT,
-                BackgroundPosition.CENTER,
-                bSize));
-        borderPane.setBackground(background);
-    }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         try {
-            changeBackground("./resources/bg/cyan.jpg");
+            borderPane.changeBackground("cyan.jpg");
 
         }catch (Exception e)
         {
