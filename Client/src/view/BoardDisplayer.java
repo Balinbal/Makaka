@@ -12,6 +12,14 @@ import java.io.FileNotFoundException;
 public class BoardDisplayer extends Canvas {
 
     private StringProperty pipeImageFolder;
+    private StringProperty startImageName;
+    private StringProperty goalImageName;
+    private StringProperty horizontalImageName;
+    private StringProperty verticalImageName;
+    private StringProperty imageName7;
+    private StringProperty fImageName;
+    private StringProperty jImageName;
+    private StringProperty lImageName;
     char[][] board;
 
 
@@ -84,8 +92,82 @@ public class BoardDisplayer extends Canvas {
         return board[0].length;
     }
 
+    public String getStartImageName() {
+        return startImageName.get();
+    }
+
+
+    public String getGoalImageName() {
+        return goalImageName.get();
+    }
+
+    public String getHorizontalImageName() {
+        return horizontalImageName.get();
+    }
+
+    public String getVerticalImageName() {
+        return verticalImageName.get();
+    }
+
+
+    public String getImageName7() {
+        return imageName7.get();
+    }
+
+    public String getFImageName() {
+        return fImageName.get();
+    }
+
+    public String getJImageName() {
+        return jImageName.get();
+    }
+
+    public String getLImageName() {
+        return lImageName.get();
+    }
+
+    public void setStartImageName(String starImageName) {
+        this.startImageName.set(starImageName);
+    }
+
+    public void setGoalImageName(String goalImageName) {
+        this.goalImageName.set(goalImageName);
+    }
+
+    public void setHorizontalImageName(String horizontalImageName) {
+        this.horizontalImageName.set(horizontalImageName);
+    }
+
+    public void setVerticalImageName(String verticalImageName) {
+        this.verticalImageName.set(verticalImageName);
+    }
+
+    public void setImageName7(String imageName7) {
+        this.imageName7.set(imageName7);
+    }
+
+    public void setFImageName(String fImageName) {
+        this.fImageName.set(fImageName);
+    }
+
+    public void setJImageName(String jImageName) {
+        this.jImageName.set(jImageName);
+    }
+
+    public void setLImageName(String lImageName) {
+        this.lImageName.set(lImageName);
+    }
+
     public BoardDisplayer(){
         pipeImageFolder = new SimpleStringProperty();
+        startImageName = new SimpleStringProperty();
+        goalImageName = new SimpleStringProperty();
+        horizontalImageName = new SimpleStringProperty();
+        verticalImageName = new SimpleStringProperty();
+        imageName7 = new SimpleStringProperty();
+        fImageName = new SimpleStringProperty();
+        jImageName = new SimpleStringProperty();
+        lImageName = new SimpleStringProperty();
     }
 
     public String getPipeFileName() {
@@ -124,28 +206,28 @@ public class BoardDisplayer extends Canvas {
 
         switch (c){
             case 'S' :
-                 imageName ="s.jpg";
+                 imageName = startImageName.get();
                  break;
             case 'G' :
-                imageName ="g.jpg";
+                imageName = goalImageName.get();
                 break;
             case '7' :
-                imageName ="7.jpg";
+                imageName = imageName7.get();
                 break;
             case 'F' :
-                imageName ="f.jpg";
+                imageName = fImageName.get();
                 break;
             case '-' :
-                imageName ="horizontal.jpg";
+                imageName = horizontalImageName.get();
                 break;
             case 'J' :
-                imageName ="j.jpg";
+                imageName = jImageName.get();
                 break;
             case 'L' :
-                imageName ="l.jpg";
+                imageName = lImageName.get();
                 break;
             case '|' :
-                imageName ="vertical.jpg";
+                imageName = verticalImageName.get();
                 break;
         }
         if(imageName != null)

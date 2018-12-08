@@ -43,13 +43,11 @@
       </MenuBar>
    </top>
    <center>
-
-            <BoardDisplayer fx:id="boardDisplayer" height="300" width="300" pipeFileName="./resources/board/">
+            <BoardDisplayer fx:id="boardDisplayer" height="300" width="300" pipeFileName="./resources/board/" goalImageName="g.jpg" startImageName="s.jpg" horizontalImageName="horizontal.jpg" verticalImageName="vertical.jpg" imageName7="7.jpg" FImageName="f.jpg" JImageName="j.jpg" LImageName="l.jpg">
                 <BorderPane.margin>
                 <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
             </BorderPane.margin>
             </BoardDisplayer>
-
    </center>
    <bottom>
       <HBox prefHeight="78.0" prefWidth="328.0" BorderPane.alignment="CENTER">

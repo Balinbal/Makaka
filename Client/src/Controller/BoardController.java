@@ -18,7 +18,8 @@ public class BoardController {
     }
 
     public char[][] handleCellClick(char[][] board, int x, int y){
-        board[y][x] = this.rotationMapping.get(board[y][x]);
+        if (rotationMapping.containsKey(board[y][x]))
+            board[y][x] = this.rotationMapping.get(board[y][x]);
         return board;
     }
 }
