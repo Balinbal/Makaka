@@ -19,7 +19,7 @@
 <?import view.BoardDisplayer?>
 
 
-<BorderPane prefHeight="500.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="view.MainWindowController">
+<BorderPane fx:id="borderPane" prefHeight="500.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="view.MainWindowController">
    <top>
       <MenuBar BorderPane.alignment="CENTER">
         <menus>
@@ -44,9 +44,9 @@
         </menus>
       </MenuBar>
    </top>
-   <left>
+   <center>
             <BoardDisplayer fx:id="boardDisplayer" height="300" width="300" pipeFileName="./resources/board/"/>
-   </left>
+   </center>
    <bottom>
       <HBox prefHeight="78.0" prefWidth="328.0" BorderPane.alignment="CENTER">
          <children>

@@ -11,6 +11,9 @@ import java.io.FileNotFoundException;
 
 public class BoardDisplayer extends Canvas {
 
+    char[][] board;
+
+
     public void setBoard(char[][] board) {
         this.board = board;
         redraw();
@@ -70,7 +73,6 @@ public class BoardDisplayer extends Canvas {
     public char[][] getBoard() {
         return this.board;
     }
-    char[][] board;
 
     public int getBoardHeight()
     {
