@@ -32,7 +32,6 @@ public class MainWindowController implements Initializable{
 
         }catch (Exception e)
         {
-            int a =2;
         }
 
         boardDisplayer.setOnMouseClicked(event -> {
