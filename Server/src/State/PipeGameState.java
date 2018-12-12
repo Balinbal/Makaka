@@ -125,7 +125,8 @@ public class PipeGameState extends State<MatrixBoard, Position> {
     @Override
     public boolean isGoal() {
         try {
-            return this.state.getPipe(this.getCurrentPosition()).getPipeVal().equals('g');
+            return this.state.getPipe(this.getCurrentPosition()).getPipeVal().equals('g') ||
+                    this.state.getPipe(this.getCurrentPosition()).getPipeVal().equals('G') ;
         } catch (NullPointerException ex) {
             return false;
         }
