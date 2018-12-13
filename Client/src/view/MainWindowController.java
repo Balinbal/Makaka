@@ -8,7 +8,10 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
 import javafx.scene.image.Image;
 import javafx.scene.layout.*;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.net.URL;
@@ -22,14 +25,20 @@ public class MainWindowController implements Initializable{
     BoardController controller;
     @FXML
     CustomBorderPane borderPane;
+    MediaPlayer backgroundMusicPlayer;
 
     public MainWindowController(){
         controller = new BoardController();
+        backgroundMusicPlayer = null;
     }
 
 
     public void HandleDoneButton()
     {
+//        borderPane.changeTheme("red");
+//        boardDisplayer.setTheme("red");
+//        changeBackgroundMusic();
+
         char[][] board = this.boardDisplayer.getBoard();
         try {
             boolean solved = BoardController.isSolved(board);
@@ -59,15 +68,29 @@ public class MainWindowController implements Initializable{
 
     }
 
+    public void changeBackgroundMusic()
+    {
+        if (this.backgroundMusicPlayer != null) {
+            this.backgroundMusicPlayer.stop();
+        }
+        String musicFileName = borderPane.getBackgroundMusicFileFolder().replace("{theme}", borderPane.getTheme())
+                + borderPane.getBackgroundMusicFileName();
+        Media song = new Media(new File(musicFileName).toURI().toString());
+        this.backgroundMusicPlayer= new MediaPlayer(song);
+        this.backgroundMusicPlayer.play();
+    }
+
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         try {
-            borderPane.changeBackground("cyan.jpg");
+            borderPane.changeBackground("bg.jpg");
 
         }catch (Exception e)
         {
         }
 
+        changeBackgroundMusic();
         boardDisplayer.setOnMouseClicked(event -> {
             double cellLength = boardDisplayer.getWidth() / boardDisplayer.getBoardWidth();
             double cellHeight = boardDisplayer.getHeight() / boardDisplayer.getBoardHeight();

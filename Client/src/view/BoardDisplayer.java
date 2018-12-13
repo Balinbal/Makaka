@@ -21,7 +21,7 @@ public class BoardDisplayer extends Canvas {
     private StringProperty jImageName;
     private StringProperty lImageName;
     char[][] board;
-
+    String currentTheme;
 
     public void setBoard(char[][] board) {
         this.board = board;
@@ -168,6 +168,13 @@ public class BoardDisplayer extends Canvas {
         fImageName = new SimpleStringProperty();
         jImageName = new SimpleStringProperty();
         lImageName = new SimpleStringProperty();
+        currentTheme = "default";
+    }
+
+    public void setTheme(String theme)
+    {
+        this.currentTheme = theme;
+        redraw();
     }
 
     public String getPipeFileName() {
@@ -232,7 +239,7 @@ public class BoardDisplayer extends Canvas {
         }
         if(imageName != null)
             try {
-                return new Image(new FileInputStream(pipeImageFolder.get()+imageName));
+                return new Image(new FileInputStream(pipeImageFolder.get().replace("{theme}", this.currentTheme)+imageName));
             } catch (FileNotFoundException e) {
                 return null;
             }

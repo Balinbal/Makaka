@@ -17,7 +17,7 @@
 <?import view.BoardDisplayer?>
 <?import view.CustomBorderPane?>
 
-<CustomBorderPane fx:id="borderPane" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MainWindowController" backgroundFolder="./resources/bg/">
+<CustomBorderPane fx:id="borderPane" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MainWindowController" backgroundFolder="./resources/themes/{theme}/bg/" theme="default" backgroundMusicFileName="bg.mp3" backgroundMusicFileFolder="./resources/themes/{theme}/sound/" >
    <top>
       <MenuBar BorderPane.alignment="CENTER">
         <menus>
@@ -43,7 +43,7 @@
       </MenuBar>
    </top>
    <center>
-            <BoardDisplayer fx:id="boardDisplayer" height="300" width="300" pipeFileName="./resources/board/" goalImageName="g.jpg" startImageName="s.jpg" horizontalImageName="horizontal.jpg" verticalImageName="vertical.jpg" imageName7="7.jpg" FImageName="f.jpg" JImageName="j.jpg" LImageName="l.jpg">
+            <BoardDisplayer fx:id="boardDisplayer" height="300" width="300" pipeFileName="./resources/themes/{theme}/board/" goalImageName="g.jpg" startImageName="s.jpg" horizontalImageName="horizontal.jpg" verticalImageName="vertical.jpg" imageName7="7.jpg" FImageName="f.jpg" JImageName="j.jpg" LImageName="l.jpg">
                 <BorderPane.margin>
                 <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
             </BorderPane.margin>
