@@ -70,6 +70,7 @@
                   </SplitPane>
                </children>
             </VBox>
+            <Button mnemonicParsing="false" onAction="#HandleDoneButton" text="Done!" />
          </children>
       </HBox>
    </bottom>
