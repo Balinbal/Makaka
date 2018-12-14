@@ -1,5 +1,6 @@
 package Controller;
 
+import Logic.HTTPServerCommunicator;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
 
@@ -9,14 +10,14 @@ import java.util.List;
 public class BoardController {
 
     private HashMap<Character, Character> rotationMapping;
+    HTTPServerCommunicator serverCommunicator;
 
 
-    public static boolean isSolved(char[][] board) throws Exception {
-        ServerCommunicator s = new ServerCommunicator("127.0.0.1", 5555, 20000);
-        List<String> res = s.getSolution(board);
-        if (res == null)
+    public boolean isSolved(char[][] board) throws Exception {
+        String solution = this.serverCommunicator.getBoardSolution(board);
+        if (solution == "")
             throw new Exception("Couldnt fetch server solution");
-        return res.size() == 1;
+        return solution.equals("done");
 
     }
 
@@ -29,6 +30,8 @@ public class BoardController {
             put('-', '|');
             put('|', '-');
         }};
+
+        serverCommunicator = new HTTPServerCommunicator("127.0.0.1", 5000);
     }
 
     public char[][] handleCellClick(char[][] board, int x, int y){

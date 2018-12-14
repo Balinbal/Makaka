@@ -41,7 +41,7 @@ public class MainWindowController implements Initializable{
 
         char[][] board = this.boardDisplayer.getBoard();
         try {
-            boolean solved = BoardController.isSolved(board);
+            boolean solved = controller.isSolved(board);
             if (solved) {
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 alert.setTitle("Stage completed");

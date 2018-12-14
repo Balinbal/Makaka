@@ -36,3 +36,14 @@
 0:0:0:0:0:0:0:1 - - [14/Dec/2018:10:53:29 +0200] "GET /PipeServer/sayhello?board=sXXXg HTTP/1.1" 200 22
 0:0:0:0:0:0:0:1 - - [14/Dec/2018:10:53:33 +0200] "GET /PipeServer/sayhello?board=sXXXg HTTP/1.1" 200 22
 0:0:0:0:0:0:0:1 - - [14/Dec/2018:10:53:40 +0200] "GET /PipeServer/sayhello?board=sXXXg;XXXXX HTTP/1.1" 200 22
+127.0.0.1 - - [14/Dec/2018:11:56:13 +0200] "GET /PipeServer/sayhello?board=SX7;F-J;JXG; HTTP/1.1" 200 22
+127.0.0.1 - - [14/Dec/2018:11:56:26 +0200] "GET /PipeServer/sayhello?board=SX7;L-7;JXG; HTTP/1.1" 200 4
+127.0.0.1 - - [14/Dec/2018:11:57:09 +0200] "GET /PipeServer/sayhello?board=SX7;L-7;JXG HTTP/1.1" 200 4
+127.0.0.1 - - [14/Dec/2018:11:57:09 +0200] "GET /favicon.ico HTTP/1.1" 200 21630
+127.0.0.1 - - [14/Dec/2018:11:57:10 +0200] "GET /PipeServer/sayhello?board=SX7;L-7;JXG; HTTP/1.1" 200 4
+127.0.0.1 - - [14/Dec/2018:11:57:15 +0200] "GET /PipeServer/sayhello?board=SX7;L-7;JXG; HTTP/1.1" 200 4
+127.0.0.1 - - [14/Dec/2018:11:57:22 +0200] "GET /PipeServer/sayhello?board=SX7;L-7;JXG; HTTP/1.1" 200 4
+127.0.0.1 - - [14/Dec/2018:11:58:23 +0200] "GET /PipeServer/sayhello?board=SX7;F-J;JXG; HTTP/1.1" 200 22
+127.0.0.1 - - [14/Dec/2018:11:58:32 +0200] "GET /PipeServer/sayhello?board=SX7;L-7;JXG; HTTP/1.1" 200 4
+127.0.0.1 - - [14/Dec/2018:11:58:37 +0200] "GET /PipeServer/sayhello?board=SX7;L-J;JXG; HTTP/1.1" 200 10
+127.0.0.1 - - [14/Dec/2018:11:58:43 +0200] "GET /PipeServer/sayhello?board=SX7;L-7;JXG; HTTP/1.1" 200 4
