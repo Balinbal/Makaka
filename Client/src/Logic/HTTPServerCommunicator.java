@@ -10,7 +10,7 @@ public class HTTPServerCommunicator implements  IServerCommunicator {
     private String serverIp;
     private int port;
     public static String baseURL = "/PipeServer";
-    public static String solveAPI = "/sayhello";
+    public static String solveAPI = "/solve";
 
     public HTTPServerCommunicator(String serverIp, int port)
     {

@@ -832,3 +832,103 @@ Caused by: java.net.BindException: Address already in use: bind
 14-Dec-2018 11:58:54.919 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
 14-Dec-2018 11:58:54.919 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-5000"]
 14-Dec-2018 11:58:54.919 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+14-Dec-2018 12:01:52.737 WARNING [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [C:\Users\Inbal\Makaka\tomcat\bin\..ServeroutproductionpipeGame_PTM], exists: [false], isDirectory: [false], canRead: [false]
+14-Dec-2018 12:01:53.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+14-Dec-2018 12:01:53.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+14-Dec-2018 12:01:53.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+14-Dec-2018 12:01:53.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+14-Dec-2018 12:01:53.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+14-Dec-2018 12:01:53.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Dec-2018 12:01:53.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             c:\Program Files\Java\jdk1.8.0_181\jre
+14-Dec-2018 12:01:53.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+14-Dec-2018 12:01:53.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Dec-2018 12:01:53.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Inbal\Makaka\tomcat
+14-Dec-2018 12:01:53.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Inbal\Makaka\tomcat
+14-Dec-2018 12:01:53.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Inbal\Makaka\tomcat\conf\logging.properties
+14-Dec-2018 12:01:53.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Dec-2018 12:01:53.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Dec-2018 12:01:53.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Dec-2018 12:01:53.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Dec-2018 12:01:53.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Inbal\Makaka\tomcat
+14-Dec-2018 12:01:53.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Inbal\Makaka\tomcat
+14-Dec-2018 12:01:53.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Inbal\Makaka\tomcat\temp
+14-Dec-2018 12:01:53.169 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [c:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Inbal\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Users\Inbal\AppData\Local\Microsoft\WindowsApps;C:\Users\Inbal\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;;.]
+14-Dec-2018 12:01:53.342 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-5000"]
+14-Dec-2018 12:01:53.503 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Dec-2018 12:01:53.525 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+14-Dec-2018 12:01:53.530 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Dec-2018 12:01:53.532 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 759 ms
+14-Dec-2018 12:01:53.576 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Dec-2018 12:01:53.576 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+14-Dec-2018 12:01:53.593 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs]
+14-Dec-2018 12:01:53.876 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs] has finished in [282] ms
+14-Dec-2018 12:01:53.876 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples]
+14-Dec-2018 12:01:54.283 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples] has finished in [406] ms
+14-Dec-2018 12:01:54.288 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager]
+14-Dec-2018 12:01:54.331 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager] has finished in [43] ms
+14-Dec-2018 12:01:54.332 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager]
+14-Dec-2018 12:01:54.376 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager] has finished in [45] ms
+14-Dec-2018 12:01:54.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer]
+14-Dec-2018 12:01:54.474 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer] has finished in [96] ms
+14-Dec-2018 12:01:54.474 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT]
+14-Dec-2018 12:01:54.504 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT] has finished in [30] ms
+14-Dec-2018 12:01:54.509 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-5000"]
+14-Dec-2018 12:01:54.523 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+14-Dec-2018 12:01:54.529 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 995 ms
+14-Dec-2018 12:03:30.136 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-5000"]
+14-Dec-2018 12:03:30.279 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+14-Dec-2018 12:03:30.359 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Dec-2018 12:03:30.374 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-5000"]
+14-Dec-2018 12:03:30.374 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+14-Dec-2018 12:03:30.390 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-5000"]
+14-Dec-2018 12:03:30.390 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+14-Dec-2018 12:03:38.240 WARNING [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [C:\Users\Inbal\Makaka\tomcat\bin\..ServeroutproductionpipeGame_PTM], exists: [false], isDirectory: [false], canRead: [false]
+14-Dec-2018 12:03:38.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+14-Dec-2018 12:03:38.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+14-Dec-2018 12:03:38.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+14-Dec-2018 12:03:38.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+14-Dec-2018 12:03:38.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+14-Dec-2018 12:03:38.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Dec-2018 12:03:38.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             c:\Program Files\Java\jdk1.8.0_181\jre
+14-Dec-2018 12:03:38.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+14-Dec-2018 12:03:38.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Dec-2018 12:03:38.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Inbal\Makaka\tomcat
+14-Dec-2018 12:03:38.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Inbal\Makaka\tomcat
+14-Dec-2018 12:03:38.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Inbal\Makaka\tomcat\conf\logging.properties
+14-Dec-2018 12:03:38.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Dec-2018 12:03:38.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Dec-2018 12:03:38.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Dec-2018 12:03:38.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Dec-2018 12:03:38.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Inbal\Makaka\tomcat
+14-Dec-2018 12:03:38.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Inbal\Makaka\tomcat
+14-Dec-2018 12:03:38.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Inbal\Makaka\tomcat\temp
+14-Dec-2018 12:03:38.724 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [c:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Inbal\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Users\Inbal\AppData\Local\Microsoft\WindowsApps;C:\Users\Inbal\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;;.]
+14-Dec-2018 12:03:38.876 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-5000"]
+14-Dec-2018 12:03:39.008 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Dec-2018 12:03:39.040 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+14-Dec-2018 12:03:39.055 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Dec-2018 12:03:39.055 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 776 ms
+14-Dec-2018 12:03:39.102 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Dec-2018 12:03:39.102 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+14-Dec-2018 12:03:39.118 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs]
+14-Dec-2018 12:03:39.370 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs] has finished in [252] ms
+14-Dec-2018 12:03:39.370 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples]
+14-Dec-2018 12:03:39.713 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples] has finished in [343] ms
+14-Dec-2018 12:03:39.713 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager]
+14-Dec-2018 12:03:39.744 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager] has finished in [31] ms
+14-Dec-2018 12:03:39.744 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager]
+14-Dec-2018 12:03:39.776 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager] has finished in [32] ms
+14-Dec-2018 12:03:39.776 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer]
+14-Dec-2018 12:03:39.854 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer] has finished in [78] ms
+14-Dec-2018 12:03:39.854 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT]
+14-Dec-2018 12:03:39.869 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT] has finished in [15] ms
+14-Dec-2018 12:03:39.885 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-5000"]
+14-Dec-2018 12:03:39.885 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+14-Dec-2018 12:03:39.901 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 840 ms
+14-Dec-2018 12:04:48.380 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-5000"]
+14-Dec-2018 12:04:48.484 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+14-Dec-2018 12:04:48.563 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Dec-2018 12:04:48.579 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-5000"]
+14-Dec-2018 12:04:48.594 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+14-Dec-2018 12:04:48.594 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-5000"]
+14-Dec-2018 12:04:48.594 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

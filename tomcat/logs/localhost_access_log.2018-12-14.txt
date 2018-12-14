@@ -47,3 +47,8 @@
 127.0.0.1 - - [14/Dec/2018:11:58:32 +0200] "GET /PipeServer/sayhello?board=SX7;L-7;JXG; HTTP/1.1" 200 4
 127.0.0.1 - - [14/Dec/2018:11:58:37 +0200] "GET /PipeServer/sayhello?board=SX7;L-J;JXG; HTTP/1.1" 200 10
 127.0.0.1 - - [14/Dec/2018:11:58:43 +0200] "GET /PipeServer/sayhello?board=SX7;L-7;JXG; HTTP/1.1" 200 4
+127.0.0.1 - - [14/Dec/2018:12:02:16 +0200] "GET /PipeServer/solve?board=SX7;7-J;JXG; HTTP/1.1" 500 3678
+0:0:0:0:0:0:0:1 - - [14/Dec/2018:12:02:29 +0200] "GET /PipeServer/solve?board=sXXXg;XXXXX HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [14/Dec/2018:12:02:55 +0200] "GET /PipeServer/sayhello?board=sXXXg;XXXXX HTTP/1.1" 404 1097
+127.0.0.1 - - [14/Dec/2018:12:03:47 +0200] "GET /PipeServer/solve?board=SX7;F-J;JXG; HTTP/1.1" 200 22
+127.0.0.1 - - [14/Dec/2018:12:03:55 +0200] "GET /PipeServer/solve?board=SX7;L-7;J-G; HTTP/1.1" 200 4

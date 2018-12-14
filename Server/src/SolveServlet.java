@@ -1,11 +1,11 @@
-// To save as "<TOMCAT_HOME>\webapps\hello\WEB-INF\classes\HelloServlet.java"
+// To save as "<TOMCAT_HOME>\webapps\hello\WEB-INF\classes\SolveServlet.java"
 import ClientHandler.ServletHandler;
 
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 
-public class HelloServlet extends HttpServlet {
+public class SolveServlet extends HttpServlet {
 
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response)
