@@ -202,13 +202,21 @@ public class MatrixBoard extends Board<Pipe[][]> {
 
     @Override
     protected Pipe[][] toBoard(String strBoard) {
+        // For HTTP support, we mapped ; to \n and X to |
+        if (strBoard.contains("X")) {
+            strBoard = strBoard.replace("X", "|");
+        }
+        String lineSeparator = System.lineSeparator();
+        if (!strBoard.contains(System.lineSeparator())) {
+            lineSeparator = ";";
+        }
         Pipe[][] tmpBoard = null;
         try {
             if (strBoard == null)
                 throw new Exception("Bord string is empty");
 
             // Get values for col and row according to the given string
-            String[] splitterBord = strBoard.split(System.lineSeparator());
+            String[] splitterBord = strBoard.split(lineSeparator);
             Integer row = splitterBord.length;
             Integer col = splitterBord[0].length();
 

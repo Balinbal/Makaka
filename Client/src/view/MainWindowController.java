@@ -35,9 +35,9 @@ public class MainWindowController implements Initializable{
 
     public void HandleDoneButton()
     {
-//        borderPane.changeTheme("red");
-//        boardDisplayer.setTheme("red");
-//        changeBackgroundMusic();
+        borderPane.changeTheme("red");
+        boardDisplayer.setTheme("red");
+        changeBackgroundMusic();
 
         char[][] board = this.boardDisplayer.getBoard();
         try {
