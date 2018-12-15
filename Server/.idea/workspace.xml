@@ -3,31 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="ef14909f-1b73-409f-b2aa-880c1b17e50d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Controller/BoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Logic/HTTPServerCommunicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Logic/HTTPServerCommunicator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Logic/IServerCommunicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Logic/IServerCommunicator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/view/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/view/MainWindow.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/src/view/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/view/MainWindowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pipeGame_PTM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pipeGame_PTM.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GetLevelServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GetLevelServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Level.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/ModelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/ModelUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GetLevelServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GetLevelServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/pipeGame_PTM.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/ModelUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/ModelUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/logs/catalina.2018-12-14.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/-105009411" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/-145494043" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/-648963280" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/-649004603" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/-756347528" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/108913922" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/112013" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/113346" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/1278979321" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/1738591966" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/2560020" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/256160363" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/3513364" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/78038343" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/993653375" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tomcat/logs/catalina.2018-12-15.log" beforeDir="false" afterPath="$PROJECT_DIR$/../tomcat/logs/catalina.2018-12-15.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/logs/host-manager.2018-12-14.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/logs/localhost.2018-12-14.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tomcat/logs/localhost.2018-12-15.log" beforeDir="false" afterPath="$PROJECT_DIR$/../tomcat/logs/localhost.2018-12-15.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/logs/localhost_access_log.2018-12-14.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tomcat/logs/localhost_access_log.2018-12-15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../tomcat/logs/localhost_access_log.2018-12-15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/logs/manager.2018-12-14.log" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -263,7 +258,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544886434035" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544887315597" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../tomcat/lib" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />

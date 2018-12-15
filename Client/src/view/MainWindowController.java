@@ -69,10 +69,11 @@ public class MainWindowController implements Initializable{
 
     }
 
-    public void HandleSolveButton()
+    public void HandleSolveButton2()
     {
         char[][] board = this.boardDisplayer.getBoard();
         String solutionFromServer = controller.getSolution(board);
+        System.out.println(solutionFromServer);
         String[] solution = solutionFromServer.split("\\|");
         for(int i=0; i<solution.length; ++i)
         {
@@ -90,17 +91,21 @@ public class MainWindowController implements Initializable{
                 System.out.println("rotate "+Integer.toString(y)+","+Integer.toString(x));
                 boardDisplayer.setBoard(board);
                 try {
-                    Thread.sleep(2000);
+                    Thread.sleep(1000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             }
-
         }
-
-
-
     }
+
+    public void HandleSolveButton()
+    {
+        Runnable runnable =  () -> {this.HandleSolveButton2(); };
+        Thread thread = new Thread(runnable);
+        thread.start();
+    }
+
     public void changeBackgroundMusic()
     {
         if (this.backgroundMusicPlayer != null) {
