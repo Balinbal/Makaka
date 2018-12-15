@@ -1,6 +1,7 @@
 package Controller;
 
 import Logic.HTTPServerCommunicator;
+import Model.ScoreRepresentation;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
@@ -66,4 +67,15 @@ public class BoardController {
     public void markFinished(String user, int steps, int time) {
         serverCommunicator.markScore(user, this.level, steps, time);
     }
+
+    public List<ScoreRepresentation> getTopForLevel()
+    {
+        return serverCommunicator.getTopForLevel(this.level);
+    }
+
+    public int getLevel()
+    {
+        return  this.level;
+    }
+
 }

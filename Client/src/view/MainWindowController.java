@@ -2,6 +2,7 @@ package view;
 
 import Controller.BoardController;
 import Controller.ServerCommunicator;
+import Model.ScoreRepresentation;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -121,6 +122,35 @@ public class MainWindowController implements Initializable{
         Runnable runnable =  () -> {this.SolveWithAnimation(); };
         Thread thread = new Thread(runnable);
         thread.start();
+    }
+
+    public void HandleTopTenCurrentLevel()
+    {
+        StringBuilder builder = new StringBuilder();
+        List<ScoreRepresentation> scores = controller.getTopForLevel();
+        for (int i=0; i<scores.size(); ++i)
+        {
+            builder.append(i+1);
+            builder.append(") ");
+            builder.append("User: ");
+            builder.append(scores.get(i).getUser());
+            builder.append(" Time: ");
+            builder.append((scores.get(i).getTime()));
+            builder.append(" Steps: ");
+            builder.append(scores.get(i).getSteps());
+            builder.append("\n");
+        }
+
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Top Scorers");
+        alert.setHeaderText("Top Scores For level " + Integer.toString(controller.getLevel()));
+        alert.setContentText(builder.toString());
+        alert.showAndWait().ifPresent(rs -> {
+        });
+    }
+    public void HandleTopTenAllLevels()
+    {
+
     }
 
     public void changeBackgroundMusic()

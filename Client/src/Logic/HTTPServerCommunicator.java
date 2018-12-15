@@ -1,9 +1,13 @@
 package Logic;
 
+import Model.ScoreRepresentation;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 
 public class HTTPServerCommunicator implements  IServerCommunicator {
 
@@ -13,6 +17,7 @@ public class HTTPServerCommunicator implements  IServerCommunicator {
     public static String solveAPI = "/solve";
     public static String getLevelAPI = "/getlevel";
     public static String setScoreAPI = "/setscore";
+    public static String toplevelsolversAPI = "/toplevelsolvers";
 
     public HTTPServerCommunicator(String serverIp, int port)
     {
@@ -77,6 +82,24 @@ public class HTTPServerCommunicator implements  IServerCommunicator {
 
         } catch (Exception e) {
         }
+    }
+
+    @Override
+    public List<ScoreRepresentation> getTopForLevel(int level) {
+        try {
+            String res = this.get(HTTPServerCommunicator.toplevelsolversAPI, "?level=" + Integer.toString(level)).toString();
+            String[] scores = res.split("\\|");
+            ArrayList <ScoreRepresentation> scoresList = new ArrayList<ScoreRepresentation>();
+            for (int i=0; i<scores.length; ++i)
+            {
+                String[] userResult = scores[i].split(",");
+                scoresList.add(new ScoreRepresentation(userResult[0],Integer.parseInt(userResult[1]),Integer.parseInt(userResult[2])));
+            }
+            return scoresList;
+        } catch (Exception e) {
+            return new ArrayList<ScoreRepresentation>();
+        }
+
     }
 
     @Override
