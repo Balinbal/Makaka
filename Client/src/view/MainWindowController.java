@@ -22,6 +22,8 @@ import java.util.ResourceBundle;
 
 public class MainWindowController implements Initializable{
 
+    public static String CurrentUser;
+
     @FXML
     BoardDisplayer boardDisplayer;
     BoardController controller;
@@ -56,7 +58,7 @@ public class MainWindowController implements Initializable{
 
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 alert.setTitle("Stage completed");
-                alert.setHeaderText("You did it");
+                alert.setHeaderText("You did it, " + MainWindowController.CurrentUser+"!");
                 alert.setContentText("Well done! Stage completed!");
                 alert.showAndWait().ifPresent(rs -> {
                 });
