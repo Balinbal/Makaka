@@ -2,6 +2,7 @@ package view;
 
 import Controller.BoardController;
 import Controller.ServerCommunicator;
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
@@ -38,6 +39,7 @@ public class MainWindowController implements Initializable{
         controller = new BoardController(null);
         backgroundMusicPlayer = null;
         steps = 0;
+        time = 0;
     }
 
 
@@ -154,6 +156,10 @@ public class MainWindowController implements Initializable{
         this.controller.setDisplayer(boardDisplayer);
         this.controller.drawBoard();
         numberOfSteps.setText(Integer.toString(this.steps));
+        timerLabel.setText(Integer.toString(this.time));
+        Runnable runnable =  () -> {this.stopWatchLoop(); };
+        Thread thread = new Thread(runnable);
+        thread.start();
     }
 
     private void incrementSteps()
@@ -166,6 +172,26 @@ public class MainWindowController implements Initializable{
     {
         this.steps = 0;
         numberOfSteps.setText(Integer.toString(this.steps));
+        this.time = 0;
+        timerLabel.setText(Integer.toString(this.time));
+    }
 
+    private void stopWatchLoop()
+    {
+        while(true)
+        {
+            try {
+                Thread.sleep(1000);
+                this.time++;
+                Platform.runLater(
+                        () -> {
+                            timerLabel.setText(Integer.toString(this.time));
+                        }
+                );
+
+            } catch (InterruptedException e) {
+            }
+
+        }
     }
 }

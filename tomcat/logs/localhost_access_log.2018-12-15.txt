@@ -165,3 +165,12 @@
 127.0.0.1 - - [15/Dec/2018:18:55:10 +0200] "GET /PipeServer/solve?board=SXFG;J-XF; HTTP/1.1" 200 22
 127.0.0.1 - - [15/Dec/2018:18:55:17 +0200] "GET /PipeServer/solve?board=SXFG;L--J; HTTP/1.1" 200 4
 127.0.0.1 - - [15/Dec/2018:18:55:19 +0200] "GET /PipeServer/getlevel?level=3 HTTP/1.1" 200 11
+0:0:0:0:0:0:0:1 - - [15/Dec/2018:19:00:39 +0200] "GET /PipeServer/solve?board=SXXG HTTP/1.1" 200 16
+127.0.0.1 - - [15/Dec/2018:19:07:04 +0200] "GET /PipeServer/getlevel?level=1 HTTP/1.1" 200 3
+127.0.0.1 - - [15/Dec/2018:19:09:26 +0200] "GET /PipeServer/getlevel?level=1 HTTP/1.1" 200 3
+127.0.0.1 - - [15/Dec/2018:19:10:32 +0200] "GET /PipeServer/getlevel?level=1 HTTP/1.1" 200 3
+127.0.0.1 - - [15/Dec/2018:19:10:38 +0200] "GET /PipeServer/solve?board=S-G; HTTP/1.1" 200 4
+127.0.0.1 - - [15/Dec/2018:19:10:39 +0200] "GET /PipeServer/getlevel?level=2 HTTP/1.1" 200 9
+127.0.0.1 - - [15/Dec/2018:19:10:43 +0200] "GET /PipeServer/solve?board=SXFG;J-XF; HTTP/1.1" 200 22
+127.0.0.1 - - [15/Dec/2018:19:10:49 +0200] "GET /PipeServer/solve?board=SXFG;L--J; HTTP/1.1" 200 4
+127.0.0.1 - - [15/Dec/2018:19:10:51 +0200] "GET /PipeServer/getlevel?level=3 HTTP/1.1" 200 11
