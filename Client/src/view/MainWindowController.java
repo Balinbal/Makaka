@@ -6,6 +6,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
+import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.layout.*;
 import javafx.scene.media.Media;
@@ -26,10 +27,17 @@ public class MainWindowController implements Initializable{
     @FXML
     CustomBorderPane borderPane;
     MediaPlayer backgroundMusicPlayer;
+    @FXML
+    Label numberOfSteps;
+    @FXML
+    Label timerLabel;
+    int steps;
+    int time;
 
     public MainWindowController(){
         controller = new BoardController(null);
         backgroundMusicPlayer = null;
+        steps = 0;
     }
 
 
@@ -43,6 +51,7 @@ public class MainWindowController implements Initializable{
         try {
             boolean solved = controller.isSolved(board);
             if (solved) {
+
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 alert.setTitle("Stage completed");
                 alert.setHeaderText("You did it");
@@ -50,6 +59,9 @@ public class MainWindowController implements Initializable{
                 alert.showAndWait().ifPresent(rs -> {
                 });
                 this.controller.incrementLevel();
+                this.initializeNewLevel();
+
+
             } else {
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 alert.setTitle("Incorrect!");
@@ -69,7 +81,7 @@ public class MainWindowController implements Initializable{
 
     }
 
-    public void HandleSolveButton2()
+    public void SolveWithAnimation()
     {
         char[][] board = this.boardDisplayer.getBoard();
         String solutionFromServer = controller.getSolution(board);
@@ -101,7 +113,7 @@ public class MainWindowController implements Initializable{
 
     public void HandleSolveButton()
     {
-        Runnable runnable =  () -> {this.HandleSolveButton2(); };
+        Runnable runnable =  () -> {this.SolveWithAnimation(); };
         Thread thread = new Thread(runnable);
         thread.start();
     }
@@ -136,16 +148,24 @@ public class MainWindowController implements Initializable{
             int celly = (int) (event.getY() / cellHeight);
             char[][] rotatedBoard = controller.handleCellClick(boardDisplayer.getBoard(), cellx, celly);
             boardDisplayer.setBoard(rotatedBoard);
+            this.incrementSteps();
         });
 
         this.controller.setDisplayer(boardDisplayer);
         this.controller.drawBoard();
-//        char[][] data = {
-//            {'S','|','7'},
-//            {'F','-','J'},
-//            {'J','|','G'}
-//        };
-//
-//        boardDisplayer.setBoard(data);
+        numberOfSteps.setText(Integer.toString(this.steps));
+    }
+
+    private void incrementSteps()
+    {
+        this.steps++;
+        numberOfSteps.setText(Integer.toString(this.steps));
+    }
+
+    private void initializeNewLevel()
+    {
+        this.steps = 0;
+        numberOfSteps.setText(Integer.toString(this.steps));
+
     }
 }

@@ -3,25 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ef14909f-1b73-409f-b2aa-880c1b17e50d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/view/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/view/MainWindow.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/src/view/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/view/MainWindowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/-105009411" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/-145494043" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/-648963280" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/-649004603" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/-756347528" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/108913922" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/112013" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/113346" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/1278979321" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/1738591966" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/2560020" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/256160363" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/3513364" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/78038343" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/993653375" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/logs/catalina.2018-12-15.log" beforeDir="false" afterPath="$PROJECT_DIR$/../tomcat/logs/catalina.2018-12-15.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/logs/localhost.2018-12-15.log" beforeDir="false" afterPath="$PROJECT_DIR$/../tomcat/logs/localhost.2018-12-15.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tomcat/logs/localhost_access_log.2018-12-15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../tomcat/logs/localhost_access_log.2018-12-15.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MainServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="34" column="84" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="84" />
+            <state relative-caret-position="442">
+              <caret line="34" column="84" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="31943">
               <caret line="1958" selection-start-line="1958" selection-end-line="1958" />
               <folding>
                 <element signature="e#76090#76091#0" expanded="true" />
@@ -69,12 +53,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Model/ModelUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
+            <state relative-caret-position="340">
               <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
-                <element signature="e#932#933#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Model/Level.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="357">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/GetLevelServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="165">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/State/PipeGameState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
+            <state relative-caret-position="1428">
               <caret line="87" column="76" selection-start-line="87" selection-start-column="76" selection-end-line="87" selection-end-column="76" />
             </state>
           </provider>
@@ -116,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SolveServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
+            <state relative-caret-position="136">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -128,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
+            <state relative-caret-position="442">
               <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
             </state>
           </provider>
@@ -254,11 +236,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544887315597" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544889941183" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../tomcat/lib" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -342,11 +325,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544207137761</updated>
+      <workItem from="1544892845958" duration="144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11413000" />
+    <option name="totallyTimeSpent" value="11557000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,13 +345,15 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27114093" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2751678" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
@@ -379,6 +365,8 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24966443" />
@@ -388,6 +376,9 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.3295302" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -530,34 +521,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/MainTrain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/State/PipeGameState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="87" column="76" selection-start-line="87" selection-start-column="76" selection-end-line="87" selection-end-column="76" />
+        <state relative-caret-position="442">
+          <caret line="34" column="84" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="31943">
           <caret line="1958" selection-start-line="1958" selection-end-line="1958" />
           <folding>
             <element signature="e#76090#76091#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -568,41 +548,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Level.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Model/ModelUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
+        <state relative-caret-position="340">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Level.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="34" column="84" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="84" />
+        <state relative-caret-position="357">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/State/PipeGameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="87" column="76" selection-start-line="87" selection-start-column="76" selection-end-line="87" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SolveServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
+        <state relative-caret-position="136">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -610,10 +585,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/MainTrain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GetLevelServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="165">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

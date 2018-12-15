@@ -3,25 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="checking for solutiom correctness">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainWindow.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainWindowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/-105009411" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/-145494043" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/-648963280" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/-649004603" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/-756347528" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/108913922" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/112013" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/113346" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/1278979321" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/1738591966" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/2560020" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/256160363" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/3513364" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/78038343" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/bin/repository/993653375" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/logs/catalina.2018-12-15.log" beforeDir="false" afterPath="$PROJECT_DIR$/../tomcat/logs/catalina.2018-12-15.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tomcat/logs/localhost.2018-12-15.log" beforeDir="false" afterPath="$PROJECT_DIR$/../tomcat/logs/localhost.2018-12-15.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tomcat/logs/localhost_access_log.2018-12-15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../tomcat/logs/localhost_access_log.2018-12-15.txt" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -82,12 +66,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/view/MainWindowController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+            <state relative-caret-position="255">
+              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1544887017574" expanded="true" signature="5015:5026" ph="..." />
-                <marker date="1544887017574" expanded="true" signature="5025:5026" ph="..." />
+                <marker date="1544893000183" expanded="true" signature="5232:5233" ph="..." />
               </folding>
             </state>
           </provider>
@@ -96,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/lang/Integer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="9282">
               <caret line="579" selection-start-line="579" selection-end-line="579" />
             </state>
           </provider>
@@ -105,11 +88,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Logic/HTTPServerCommunicator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
+            <state relative-caret-position="765">
               <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1960#1961#0" expanded="true" />
                 <element signature="e#1994#1995#0" expanded="true" />
+                <element signature="e#2045#2046#0" expanded="true" />
                 <element signature="e#2077#2078#0" expanded="true" />
               </folding>
             </state>
@@ -128,14 +113,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/BoardController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" column="60" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="60" />
+            <state relative-caret-position="170">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#1237#1238#0" expanded="true" />
-                <element signature="e#1293#1294#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/MainWindow.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="717">
-              <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="50" selection-end-column="29" />
+            <state relative-caret-position="156">
+              <caret line="64" column="54" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="54" />
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -154,7 +137,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/CustomBorderPane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
+            <state relative-caret-position="612">
               <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -168,8 +151,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/BoardDisplayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1114">
-              <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+            <state relative-caret-position="3026">
+              <caret line="243" column="22" selection-start-line="243" selection-start-column="22" selection-end-line="243" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -189,7 +172,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/ServerCommunicator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="221">
               <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -273,7 +256,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -331,7 +313,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -343,7 +325,8 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544887315563" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544893000324" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Server" />
     <property name="project.structure.last.edited" value="Project" />
@@ -472,6 +455,7 @@
       <option name="presentableId" value="Default" />
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1544892846754" duration="143000" />
     </task>
     <task id="LOCAL-00001" summary="checking for solutiom correctness">
       <created>1544552363865</created>
@@ -484,22 +468,24 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14691000" />
+    <option name="totallyTimeSpent" value="17182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.19463088" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.19731544" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36685553" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36685553" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3937677" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -512,6 +498,7 @@
       <window_info anchor="bottom" id="Problems" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -523,6 +510,9 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
@@ -630,6 +620,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9282">
+          <caret line="579" selection-start-line="579" selection-end-line="579" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logic/HTTPServerCommunicator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1960#1961#0" expanded="true" />
+            <element signature="e#1994#1995#0" expanded="true" />
+            <element signature="e#2045#2046#0" expanded="true" />
+            <element signature="e#2077#2078#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Logic/IServerCommunicator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -637,9 +648,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/BoardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/CustomBorderPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1245#1246#0" expanded="true" />
+            <element signature="e#1299#1300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/BoardDisplayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3026">
+          <caret line="243" column="22" selection-start-line="243" selection-start-column="22" selection-end-line="243" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/ServerCommunicator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="221">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -650,82 +702,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/MainWindow.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="50" selection-end-column="29" />
+        <state relative-caret-position="156">
+          <caret line="64" column="54" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="54" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="579" selection-start-line="579" selection-end-line="579" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logic/HTTPServerCommunicator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1994#1995#0" expanded="true" />
-            <element signature="e#2077#2078#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/CustomBorderPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1245#1246#0" expanded="true" />
-            <element signature="e#1299#1300#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/BoardController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="60" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#1237#1238#0" expanded="true" />
-            <element signature="e#1293#1294#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/BoardDisplayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1114">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/MainWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="255">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1544887017574" expanded="true" signature="5015:5026" ph="..." />
-            <marker date="1544887017574" expanded="true" signature="5025:5026" ph="..." />
+            <marker date="1544893000183" expanded="true" signature="5232:5233" ph="..." />
           </folding>
         </state>
       </provider>
