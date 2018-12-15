@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [15/Dec/2018:09:41:06 +0200] "GET /getlevel?level=2 HTTP/1.1" 404 1082
+0:0:0:0:0:0:0:1 - - [15/Dec/2018:09:41:44 +0200] "GET /PipeServer/getlevel?level=2 HTTP/1.1" 500 3687
+0:0:0:0:0:0:0:1 - - [15/Dec/2018:09:42:07 +0200] "GET /PipeServer/solve?board=SXXG HTTP/1.1" 500 3678
+0:0:0:0:0:0:0:1 - - [15/Dec/2018:09:42:09 +0200] "GET /PipeServer/solve?board=SXXG HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [15/Dec/2018:09:42:13 +0200] "GET /PipeServer/solve?board=SXXG HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [15/Dec/2018:09:42:19 +0200] "GET /PipeServer/solve?board=SXXG HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [15/Dec/2018:09:42:33 +0200] "GET /PipeServer/solve?board=SXXG HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [15/Dec/2018:09:44:27 +0200] "GET /PipeServer/solve?board=SXXG HTTP/1.1" 200 16
+0:0:0:0:0:0:0:1 - - [15/Dec/2018:09:44:40 +0200] "GET /PipeServer/getlevel?level=2 HTTP/1.1" 500 2457

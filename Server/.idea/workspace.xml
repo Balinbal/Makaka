@@ -3,89 +3,111 @@
   <component name="ChangeListManager">
     <list default="true" id="ef14909f-1b73-409f-b2aa-880c1b17e50d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Logic/HTTPServerCommunicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Logic/HTTPServerCommunicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RunServer.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../RunServer.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolveServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pipeGame_PTM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pipeGame_PTM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BFSSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithms/BFSSearcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BestFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithms/BestFirstSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/DFSSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithms/DFSSearcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/HillClimbingSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithms/HillClimbingSearcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/Searcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithms/Searcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Board/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Board/MatrixBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Board/MatrixBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Board/Pipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Board/Pipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Board/PipeGameStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Board/PipeGameStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Board/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Board/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Board/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Board/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Board/Step.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Board/Step.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CacheManager/CacheManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CacheManager/CacheManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CacheManager/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CacheManager/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientHandler/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClientHandler/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientHandler/MyCHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClientHandler/MyCHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientHandler/ServletHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClientHandler/ServletHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searchable/PipeSearchable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Searchable/PipeSearchable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searchable/Searchable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Searchable/Searchable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/MyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server/MyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/RequestEnvelope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server/RequestEnvelope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/ThreadPool/ClientHandlerRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server/ThreadPool/ClientHandlerRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/ThreadPool/PriorityJobScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server/ThreadPool/PriorityJobScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolveServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SolveServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solver/PipeGameSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solver/PipeGameSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solver/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solver/Solver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/PipeGameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/State/PipeGameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/State/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/MainTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/MainTrain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/TestServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/conf/catalina.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../tomcat/conf/catalina.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/logs/catalina.2018-12-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/../tomcat/logs/catalina.2018-12-14.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/logs/localhost.2018-12-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/../tomcat/logs/localhost.2018-12-14.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/logs/localhost_access_log.2018-12-14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../tomcat/logs/localhost_access_log.2018-12-14.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/.idea/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Algorithms/BFSSearcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Algorithms/BestFirstSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Algorithms/DFSSearcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Algorithms/HillClimbingSearcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Algorithms/Searcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Board/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Board/MatrixBoard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Board/MatrixBoard$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Board/MatrixBoard$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Board/MatrixBoard$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Board/MatrixBoard$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Board/MatrixBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Board/Pipe$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Board/Pipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Board/PipeGameStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Board/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Board/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Board/Step.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/CacheManager/CacheManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/CacheManager/FileManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/ClientHandler/ClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/ClientHandler/MyCHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/ClientHandler/ServletHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/MainServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Searchable/PipeSearchable$StateComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Searchable/PipeSearchable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Searchable/Searchable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Server/MyServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Server/RequestEnvelope.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Server/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Server/ThreadPool/ClientHandlerRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Server/ThreadPool/PriorityJobScheduler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Server/ThreadPool/PriorityJobScheduler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/SolveServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Solver/PipeGameSolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/Solver/Solver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/State/PipeGameState$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/State/PipeGameState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/State/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/test/MainTrain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/classes/test/TestServer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tomcat/webapps/PipeServer/WEB-INF/web.xml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1686706983">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="9" />
-          <entry key="xml" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="9" />
-          <entry key="XML" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="12" />
-          <entry key="java" value="345" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="345" />
-          <entry key="PLAIN_TEXT" value="12" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-1668074085">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="140" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="140" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MainServer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MainServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,28 +116,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/MainTrain.java">
+        <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="14" column="28" selection-start-line="14" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Board/MatrixBoard.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/ModelUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="206" column="50" selection-start-line="206" selection-start-column="50" selection-end-line="206" selection-end-column="50" />
+            <state relative-caret-position="391">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#895#896#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ClientHandler/ServletHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Level.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+            <state relative-caret-position="323">
+              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GetLevelServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,53 +163,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SolveServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/State/PipeGameState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="159">
+              <caret line="82" column="14" lean-forward="true" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Solver/PipeGameSolver.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SolveServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="66" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="66" />
+            <state relative-caret-position="289">
+              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
               <folding>
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Solver/Solver.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="170">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ClientHandler/MyCHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Board/Position.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/MainTrain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Board/PipeGameStep.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Board/Step.java">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -187,7 +224,12 @@
       <find>7</find>
       <find>run</find>
       <find>toboard</find>
+      <find>package main.java</find>
+      <find>main.java.</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -201,7 +243,23 @@
         <option value="$PROJECT_DIR$/src/HelloServlet.java" />
         <option value="$PROJECT_DIR$/src/Board/MatrixBoard.java" />
         <option value="$PROJECT_DIR$/src/ClientHandler/ServletHandler.java" />
+        <option value="$PROJECT_DIR$/src/MainServer.java" />
         <option value="$PROJECT_DIR$/src/SolveServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithms/BestFirstSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithms/BFSSearcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithms/DFSSearcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithms/Searcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithms/HillClimbingSearcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/MainTrain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainServer.java" />
+        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/ModelUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/LevelsModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Levels.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SolveServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Level.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GetLevelServlet.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -223,6 +281,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,45 +299,45 @@
               <item name="Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ClientHandler" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="State" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="annotations-java8.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544781885774" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544859991552" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../tomcat/lib" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Inbal\Makaka\Server\src\main\java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -292,7 +352,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -317,7 +377,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -325,11 +385,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -353,11 +413,23 @@
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3902000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27114093" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -366,18 +438,18 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32907802" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24966443" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -385,11 +457,8 @@
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.3295302" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Board/Pipe.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Board/Pipe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1632">
           <caret line="105" column="18" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
@@ -410,7 +479,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientHandler/ClientHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientHandler/ClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
@@ -424,37 +493,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/State/PipeGameState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Board/Position.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Board/PipeGameStep.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Board/PipeGameStep.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Board/Step.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Board/Step.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientHandler/MyCHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solver/Solver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Solver/Solver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solver/PipeGameSolver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Solver/PipeGameSolver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="17" column="66" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="66" />
@@ -465,31 +517,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/MainTrain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Board/MatrixBoard.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Board/MatrixBoard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="206" column="50" selection-start-line="206" selection-start-column="50" selection-end-line="206" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientHandler/ServletHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientHandler/ServletHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
           <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
@@ -499,10 +534,135 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SolveServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientHandler/MyCHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="68">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithms/BestFirstSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithms/BFSSearcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithms/DFSSearcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithms/Searcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithms/HillClimbingSearcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Board/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/MainTrain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="28" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SolveServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/ModelUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GetLevelServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/State/PipeGameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="82" column="14" lean-forward="true" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -563,6 +723,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -570,6 +731,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: mysql:mysql-connector-java:5.1.22</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

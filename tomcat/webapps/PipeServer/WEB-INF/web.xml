@@ -9,6 +9,11 @@
       <servlet-name>Solve</servlet-name>
       <servlet-class>SolveServlet</servlet-class>
    </servlet>
+   
+   <servlet>
+      <servlet-name>GetLevel</servlet-name>
+      <servlet-class>GetLevelServlet</servlet-class>
+   </servlet>
  
    <!-- Note: All <servlet> elements MUST be grouped together and
          placed IN FRONT of the <servlet-mapping> elements -->
@@ -16,5 +21,9 @@
    <servlet-mapping>
       <servlet-name>Solve</servlet-name>
       <url-pattern>/solve</url-pattern>
+   </servlet-mapping>
+   <servlet-mapping>
+      <servlet-name>GetLevel</servlet-name>
+      <url-pattern>/getlevel</url-pattern>
    </servlet-mapping>
 </web-app>
