@@ -62,4 +62,8 @@ public class BoardController {
             board[y][x] = this.rotationMapping.get(board[y][x]);
         return board;
     }
+
+    public void markFinished(String user, int steps, int time) {
+        serverCommunicator.markScore(user, this.level, steps, time);
+    }
 }

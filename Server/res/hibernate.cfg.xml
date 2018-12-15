@@ -13,6 +13,7 @@
         <property name="connection.pool_size">1</property>
 
         <mapping class="Model.Level"></mapping>
+        <mapping class="Model.Score"></mapping>
 
     </session-factory>
 </hibernate-configuration>

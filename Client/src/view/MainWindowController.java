@@ -62,6 +62,7 @@ public class MainWindowController implements Initializable{
                 alert.setContentText("Well done! Stage completed!");
                 alert.showAndWait().ifPresent(rs -> {
                 });
+                this.controller.markFinished(MainWindowController.CurrentUser, this.steps, this.time);
                 this.controller.incrementLevel();
                 this.initializeNewLevel();
 

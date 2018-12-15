@@ -12,6 +12,7 @@ public class HTTPServerCommunicator implements  IServerCommunicator {
     public static String baseURL = "/PipeServer";
     public static String solveAPI = "/solve";
     public static String getLevelAPI = "/getlevel";
+    public static String setScoreAPI = "/setscore";
 
     public HTTPServerCommunicator(String serverIp, int port)
     {
@@ -42,7 +43,6 @@ public class HTTPServerCommunicator implements  IServerCommunicator {
 
     @Override
     public char[][] getBoard(int level) {
-        //http://localhost:5000/PipeServer/getlevel?level=2
         try {
             String res = this.get(HTTPServerCommunicator.getLevelAPI, "?level=" + Integer.toString(level)).toString();
             res = res.replace("X", "|");
@@ -59,6 +59,24 @@ public class HTTPServerCommunicator implements  IServerCommunicator {
             return new char[][]{};
         }
 
+    }
+
+    @Override
+    public void markScore(String user, int level, int steps, int time) {
+        try {
+            StringBuilder params = new StringBuilder();
+            params.append("?user=");
+            params.append(user);
+            params.append("&level=");
+            params.append(level);
+            params.append("&time=");
+            params.append(time);
+            params.append("&steps=");
+            params.append(steps);
+            this.get(HTTPServerCommunicator.setScoreAPI, params.toString());
+
+        } catch (Exception e) {
+        }
     }
 
     @Override
