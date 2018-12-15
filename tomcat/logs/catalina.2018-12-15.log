@@ -1,91 +1,895 @@
-15-Dec-2018 09:40:49.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
-15-Dec-2018 09:40:49.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
-15-Dec-2018 09:40:49.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
-15-Dec-2018 09:40:49.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
-15-Dec-2018 09:40:49.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
-15-Dec-2018 09:40:49.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
-15-Dec-2018 09:40:49.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             c:\Program Files\Java\jdk1.8.0_181\jre
-15-Dec-2018 09:40:49.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
-15-Dec-2018 09:40:49.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
-15-Dec-2018 09:40:49.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Inbal\Makaka\tomcat
-15-Dec-2018 09:40:49.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Inbal\Makaka\tomcat
-15-Dec-2018 09:40:49.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Inbal\Makaka\tomcat\conf\logging.properties
-15-Dec-2018 09:40:49.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
-15-Dec-2018 09:40:49.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
-15-Dec-2018 09:40:49.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
-15-Dec-2018 09:40:49.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
-15-Dec-2018 09:40:49.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Inbal\Makaka\tomcat
-15-Dec-2018 09:40:49.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Inbal\Makaka\tomcat
-15-Dec-2018 09:40:49.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Inbal\Makaka\tomcat\temp
-15-Dec-2018 09:40:49.152 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [c:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Inbal\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Server 8.0;C:\Users\Inbal\AppData\Local\Microsoft\WindowsApps;C:\Users\Inbal\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;;.]
-15-Dec-2018 09:40:50.425 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-5000"]
-15-Dec-2018 09:40:50.539 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
-15-Dec-2018 09:40:50.551 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
-15-Dec-2018 09:40:50.558 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
-15-Dec-2018 09:40:50.559 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1766 ms
-15-Dec-2018 09:40:50.610 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
-15-Dec-2018 09:40:50.610 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
-15-Dec-2018 09:40:50.624 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs]
-15-Dec-2018 09:40:51.174 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs] has finished in [549] ms
-15-Dec-2018 09:40:51.174 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples]
-15-Dec-2018 09:40:53.547 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples] has finished in [2,373] ms
-15-Dec-2018 09:40:53.548 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager]
-15-Dec-2018 09:40:53.609 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager] has finished in [61] ms
-15-Dec-2018 09:40:53.609 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager]
-15-Dec-2018 09:40:53.665 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager] has finished in [56] ms
-15-Dec-2018 09:40:53.668 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer]
-15-Dec-2018 09:40:53.713 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer] has finished in [45] ms
-15-Dec-2018 09:40:53.715 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT]
-15-Dec-2018 09:40:53.755 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT] has finished in [40] ms
-15-Dec-2018 09:40:53.759 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-5000"]
-15-Dec-2018 09:40:53.772 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
-15-Dec-2018 09:40:53.775 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3215 ms
-15-Dec-2018 09:44:24.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
-15-Dec-2018 09:44:24.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
-15-Dec-2018 09:44:24.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
-15-Dec-2018 09:44:24.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
-15-Dec-2018 09:44:24.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
-15-Dec-2018 09:44:24.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
-15-Dec-2018 09:44:24.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             c:\Program Files\Java\jdk1.8.0_181\jre
-15-Dec-2018 09:44:24.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
-15-Dec-2018 09:44:24.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
-15-Dec-2018 09:44:24.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Inbal\Makaka\tomcat
-15-Dec-2018 09:44:24.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Inbal\Makaka\tomcat
-15-Dec-2018 09:44:24.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Inbal\Makaka\tomcat\conf\logging.properties
-15-Dec-2018 09:44:24.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
-15-Dec-2018 09:44:24.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
-15-Dec-2018 09:44:24.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
-15-Dec-2018 09:44:24.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
-15-Dec-2018 09:44:24.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Inbal\Makaka\tomcat
-15-Dec-2018 09:44:24.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Inbal\Makaka\tomcat
-15-Dec-2018 09:44:24.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Inbal\Makaka\tomcat\temp
-15-Dec-2018 09:44:24.664 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [c:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Inbal\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Users\Inbal\AppData\Local\Microsoft\WindowsApps;C:\Users\Inbal\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;;.]
-15-Dec-2018 09:44:24.785 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-5000"]
-15-Dec-2018 09:44:24.889 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
-15-Dec-2018 09:44:24.905 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
-15-Dec-2018 09:44:24.907 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
-15-Dec-2018 09:44:24.908 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 575 ms
-15-Dec-2018 09:44:24.943 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
-15-Dec-2018 09:44:24.943 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
-15-Dec-2018 09:44:24.956 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs]
-15-Dec-2018 09:44:25.315 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs] has finished in [359] ms
-15-Dec-2018 09:44:25.316 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples]
-15-Dec-2018 09:44:25.683 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples] has finished in [367] ms
-15-Dec-2018 09:44:25.684 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager]
-15-Dec-2018 09:44:25.717 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager] has finished in [33] ms
-15-Dec-2018 09:44:25.717 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager]
-15-Dec-2018 09:44:25.753 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager] has finished in [36] ms
-15-Dec-2018 09:44:25.753 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer]
-15-Dec-2018 09:44:25.818 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer] has finished in [64] ms
-15-Dec-2018 09:44:25.819 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT]
-15-Dec-2018 09:44:25.863 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT] has finished in [44] ms
-15-Dec-2018 09:44:25.867 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-5000"]
-15-Dec-2018 09:44:25.879 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
-15-Dec-2018 09:44:25.881 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 973 ms
-15-Dec-2018 09:46:34.953 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-5000"]
-15-Dec-2018 09:46:35.219 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
-15-Dec-2018 09:46:35.446 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
-15-Dec-2018 09:46:35.498 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-5000"]
-15-Dec-2018 09:46:35.517 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-15-Dec-2018 09:46:35.521 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-5000"]
-15-Dec-2018 09:46:35.525 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 13:59:44.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+15-Dec-2018 13:59:44.804 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+15-Dec-2018 13:59:44.804 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+15-Dec-2018 13:59:44.804 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+15-Dec-2018 13:59:44.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Dec-2018 13:59:44.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Dec-2018 13:59:44.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             c:\Program Files\Java\jdk1.8.0_181\jre
+15-Dec-2018 13:59:44.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+15-Dec-2018 13:59:44.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Dec-2018 13:59:44.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 13:59:44.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 13:59:44.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Inbal\Makaka\tomcat\conf\logging.properties
+15-Dec-2018 13:59:44.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Dec-2018 13:59:44.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Dec-2018 13:59:44.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Dec-2018 13:59:44.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Dec-2018 13:59:44.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 13:59:44.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 13:59:44.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Inbal\Makaka\tomcat\temp
+15-Dec-2018 13:59:44.812 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [c:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Inbal\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Users\Inbal\AppData\Local\Microsoft\WindowsApps;C:\Users\Inbal\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;;.]
+15-Dec-2018 13:59:44.949 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 13:59:45.067 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 13:59:45.082 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 13:59:45.084 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 13:59:45.085 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 647 ms
+15-Dec-2018 13:59:45.117 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Dec-2018 13:59:45.120 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+15-Dec-2018 13:59:45.135 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs]
+15-Dec-2018 13:59:45.776 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 13:59:45.817 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs] has finished in [682] ms
+15-Dec-2018 13:59:45.818 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples]
+15-Dec-2018 13:59:46.357 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 13:59:46.407 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples] has finished in [589] ms
+15-Dec-2018 13:59:46.407 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager]
+15-Dec-2018 13:59:46.716 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 13:59:46.724 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager] has finished in [317] ms
+15-Dec-2018 13:59:46.724 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager]
+15-Dec-2018 13:59:47.027 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 13:59:47.031 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager] has finished in [307] ms
+15-Dec-2018 13:59:47.035 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer]
+15-Dec-2018 13:59:47.417 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 13:59:47.422 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer] has finished in [387] ms
+15-Dec-2018 13:59:47.425 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT]
+15-Dec-2018 13:59:47.754 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 13:59:47.763 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT] has finished in [341] ms
+15-Dec-2018 13:59:47.767 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 13:59:47.781 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 13:59:47.786 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2700 ms
+15-Dec-2018 13:59:54.220 INFO [http-nio-5000-exec-1] org.hibernate.annotations.common.Version.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+15-Dec-2018 13:59:54.229 INFO [http-nio-5000-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.1.9.Final}
+15-Dec-2018 13:59:54.231 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+15-Dec-2018 13:59:54.232 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+15-Dec-2018 13:59:54.246 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Configuration.configure HHH000042: Configuring from file: hibernate.cfg.xml
+15-Dec-2018 13:59:54.320 WARN [http-nio-5000-exec-1] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+15-Dec-2018 13:59:54.342 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+15-Dec-2018 13:59:54.447 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+15-Dec-2018 13:59:54.452 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 1
+15-Dec-2018 13:59:54.453 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000006: Autocommit mode: false
+15-Dec-2018 13:59:54.453 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hibernatedb?serverTimezone=UTC]
+15-Dec-2018 13:59:54.455 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000046: Connection properties: {user=root, password=****}
+15-Dec-2018 13:59:54.968 INFO [http-nio-5000-exec-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+15-Dec-2018 13:59:54.992 INFO [http-nio-5000-exec-1] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+15-Dec-2018 13:59:55.004 INFO [http-nio-5000-exec-1] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+15-Dec-2018 14:03:22.455 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:03:22.556 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:03:22.646 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Dec-2018 14:03:22.680 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:03:22.688 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:03:22.690 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:03:22.691 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:03:25.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+15-Dec-2018 14:03:25.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+15-Dec-2018 14:03:25.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+15-Dec-2018 14:03:25.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+15-Dec-2018 14:03:25.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Dec-2018 14:03:25.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Dec-2018 14:03:25.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             c:\Program Files\Java\jdk1.8.0_181\jre
+15-Dec-2018 14:03:25.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+15-Dec-2018 14:03:25.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Dec-2018 14:03:25.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:03:25.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:03:25.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Inbal\Makaka\tomcat\conf\logging.properties
+15-Dec-2018 14:03:25.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Dec-2018 14:03:25.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Dec-2018 14:03:25.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Dec-2018 14:03:25.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Dec-2018 14:03:25.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:03:25.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:03:25.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Inbal\Makaka\tomcat\temp
+15-Dec-2018 14:03:25.742 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [c:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Inbal\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Users\Inbal\AppData\Local\Microsoft\WindowsApps;C:\Users\Inbal\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;;.]
+15-Dec-2018 14:03:25.882 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:03:26.006 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 14:03:26.022 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:03:26.025 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 14:03:26.026 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 655 ms
+15-Dec-2018 14:03:26.064 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Dec-2018 14:03:26.065 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+15-Dec-2018 14:03:26.079 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs]
+15-Dec-2018 14:03:26.753 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:03:26.792 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs] has finished in [712] ms
+15-Dec-2018 14:03:26.793 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples]
+15-Dec-2018 14:03:27.400 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:03:27.469 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples] has finished in [676] ms
+15-Dec-2018 14:03:27.469 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager]
+15-Dec-2018 14:03:27.791 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:03:27.802 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager] has finished in [333] ms
+15-Dec-2018 14:03:27.804 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager]
+15-Dec-2018 14:03:28.109 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:03:28.117 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager] has finished in [309] ms
+15-Dec-2018 14:03:28.117 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer]
+15-Dec-2018 14:03:28.551 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:03:28.571 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer] has finished in [454] ms
+15-Dec-2018 14:03:28.587 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT]
+15-Dec-2018 14:03:28.901 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:03:28.901 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT] has finished in [314] ms
+15-Dec-2018 14:03:28.917 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:03:28.926 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:03:28.930 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2903 ms
+15-Dec-2018 14:03:33.176 INFO [http-nio-5000-exec-1] org.hibernate.annotations.common.Version.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+15-Dec-2018 14:03:33.181 INFO [http-nio-5000-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.1.9.Final}
+15-Dec-2018 14:03:33.184 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+15-Dec-2018 14:03:33.187 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+15-Dec-2018 14:03:33.200 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Configuration.configure HHH000042: Configuring from file: hibernate.cfg.xml
+15-Dec-2018 14:03:33.302 WARN [http-nio-5000-exec-1] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+15-Dec-2018 14:03:33.325 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+15-Dec-2018 14:03:33.419 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+15-Dec-2018 14:03:33.423 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 1
+15-Dec-2018 14:03:33.423 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000006: Autocommit mode: false
+15-Dec-2018 14:03:33.424 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hibernatedb?serverTimezone=UTC]
+15-Dec-2018 14:03:33.424 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000046: Connection properties: {user=root, password=****}
+15-Dec-2018 14:03:33.887 INFO [http-nio-5000-exec-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+15-Dec-2018 14:03:33.910 INFO [http-nio-5000-exec-1] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+15-Dec-2018 14:03:33.913 INFO [http-nio-5000-exec-1] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+15-Dec-2018 14:04:46.140 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:04:46.336 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:04:46.495 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Dec-2018 14:04:46.624 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:04:46.630 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:04:46.635 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:04:46.638 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:04:49.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+15-Dec-2018 14:04:49.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+15-Dec-2018 14:04:49.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+15-Dec-2018 14:04:49.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+15-Dec-2018 14:04:49.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Dec-2018 14:04:49.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Dec-2018 14:04:49.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             c:\Program Files\Java\jdk1.8.0_181\jre
+15-Dec-2018 14:04:49.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+15-Dec-2018 14:04:49.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Dec-2018 14:04:49.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:04:49.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:04:49.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Inbal\Makaka\tomcat\conf\logging.properties
+15-Dec-2018 14:04:49.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Dec-2018 14:04:49.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Dec-2018 14:04:49.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Dec-2018 14:04:49.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Dec-2018 14:04:49.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:04:49.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:04:49.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Inbal\Makaka\tomcat\temp
+15-Dec-2018 14:04:49.553 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [c:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Inbal\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Users\Inbal\AppData\Local\Microsoft\WindowsApps;C:\Users\Inbal\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;;.]
+15-Dec-2018 14:04:49.676 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:04:49.796 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 14:04:49.811 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:04:49.813 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 14:04:49.815 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 614 ms
+15-Dec-2018 14:04:49.855 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Dec-2018 14:04:49.859 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+15-Dec-2018 14:04:49.862 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs]
+15-Dec-2018 14:04:50.568 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:04:50.614 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs] has finished in [740] ms
+15-Dec-2018 14:04:50.614 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples]
+15-Dec-2018 14:04:51.269 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:04:51.322 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples] has finished in [708] ms
+15-Dec-2018 14:04:51.323 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager]
+15-Dec-2018 14:04:51.701 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:04:51.706 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager] has finished in [383] ms
+15-Dec-2018 14:04:51.707 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager]
+15-Dec-2018 14:04:52.104 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:04:52.111 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager] has finished in [404] ms
+15-Dec-2018 14:04:52.111 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer]
+15-Dec-2018 14:04:52.492 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:04:52.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer] has finished in [381] ms
+15-Dec-2018 14:04:52.508 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT]
+15-Dec-2018 14:04:52.950 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:04:52.954 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT] has finished in [446] ms
+15-Dec-2018 14:04:52.959 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:04:52.977 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:04:52.984 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3168 ms
+15-Dec-2018 14:04:54.245 INFO [http-nio-5000-exec-1] org.hibernate.annotations.common.Version.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+15-Dec-2018 14:04:54.253 INFO [http-nio-5000-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.1.9.Final}
+15-Dec-2018 14:04:54.255 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+15-Dec-2018 14:04:54.257 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+15-Dec-2018 14:04:54.284 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Configuration.configure HHH000042: Configuring from file: hibernate.cfg.xml
+15-Dec-2018 14:04:54.406 WARN [http-nio-5000-exec-1] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+15-Dec-2018 14:04:54.443 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+15-Dec-2018 14:04:54.629 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+15-Dec-2018 14:04:54.632 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 1
+15-Dec-2018 14:04:54.633 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000006: Autocommit mode: false
+15-Dec-2018 14:04:54.634 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hibernatedb?serverTimezone=UTC]
+15-Dec-2018 14:04:54.634 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000046: Connection properties: {user=root, password=****}
+15-Dec-2018 14:04:55.401 INFO [http-nio-5000-exec-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+15-Dec-2018 14:04:55.435 INFO [http-nio-5000-exec-1] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+15-Dec-2018 14:04:55.444 INFO [http-nio-5000-exec-1] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+15-Dec-2018 14:14:36.801 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:14:37.051 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:14:37.259 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Dec-2018 14:14:37.340 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:14:37.341 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:14:37.352 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:14:37.354 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:14:40.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+15-Dec-2018 14:14:40.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+15-Dec-2018 14:14:40.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+15-Dec-2018 14:14:40.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+15-Dec-2018 14:14:40.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Dec-2018 14:14:40.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Dec-2018 14:14:40.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             c:\Program Files\Java\jdk1.8.0_181\jre
+15-Dec-2018 14:14:40.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+15-Dec-2018 14:14:40.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Dec-2018 14:14:40.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:14:40.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:14:40.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Inbal\Makaka\tomcat\conf\logging.properties
+15-Dec-2018 14:14:40.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Dec-2018 14:14:40.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Dec-2018 14:14:40.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Dec-2018 14:14:40.383 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Dec-2018 14:14:40.383 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:14:40.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:14:40.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Inbal\Makaka\tomcat\temp
+15-Dec-2018 14:14:40.385 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [c:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Inbal\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Users\Inbal\AppData\Local\Microsoft\WindowsApps;C:\Users\Inbal\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;;.]
+15-Dec-2018 14:14:40.515 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:14:40.630 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 14:14:40.645 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:14:40.647 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 14:14:40.648 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 615 ms
+15-Dec-2018 14:14:40.685 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Dec-2018 14:14:40.685 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+15-Dec-2018 14:14:40.693 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs]
+15-Dec-2018 14:14:41.410 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:14:41.450 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs] has finished in [757] ms
+15-Dec-2018 14:14:41.451 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples]
+15-Dec-2018 14:14:42.074 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:14:42.124 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples] has finished in [673] ms
+15-Dec-2018 14:14:42.125 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager]
+15-Dec-2018 14:14:42.478 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:14:42.488 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager] has finished in [363] ms
+15-Dec-2018 14:14:42.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager]
+15-Dec-2018 14:14:42.859 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:14:42.866 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager] has finished in [377] ms
+15-Dec-2018 14:14:42.867 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer]
+15-Dec-2018 14:14:43.341 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:14:43.359 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer] has finished in [492] ms
+15-Dec-2018 14:14:43.366 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT]
+15-Dec-2018 14:14:43.787 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:14:43.803 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT] has finished in [437] ms
+15-Dec-2018 14:14:43.812 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:14:43.829 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:14:43.834 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3185 ms
+15-Dec-2018 14:15:21.628 INFO [http-nio-5000-exec-1] org.hibernate.annotations.common.Version.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+15-Dec-2018 14:15:21.639 INFO [http-nio-5000-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.1.9.Final}
+15-Dec-2018 14:15:21.644 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+15-Dec-2018 14:15:21.648 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+15-Dec-2018 14:15:21.675 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Configuration.configure HHH000042: Configuring from file: hibernate.cfg.xml
+15-Dec-2018 14:15:21.844 WARN [http-nio-5000-exec-1] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+15-Dec-2018 14:15:21.878 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+15-Dec-2018 14:15:22.074 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+15-Dec-2018 14:15:22.079 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 1
+15-Dec-2018 14:15:22.080 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000006: Autocommit mode: false
+15-Dec-2018 14:15:22.081 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hibernatedb?serverTimezone=UTC]
+15-Dec-2018 14:15:22.081 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000046: Connection properties: {user=root, password=****}
+15-Dec-2018 14:15:22.838 INFO [http-nio-5000-exec-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+15-Dec-2018 14:15:22.878 INFO [http-nio-5000-exec-1] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+15-Dec-2018 14:15:22.884 INFO [http-nio-5000-exec-1] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+15-Dec-2018 14:21:47.685 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:21:47.839 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:21:47.921 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Dec-2018 14:21:47.974 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:21:47.979 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:21:47.981 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:21:47.983 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:21:50.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+15-Dec-2018 14:21:50.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+15-Dec-2018 14:21:50.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+15-Dec-2018 14:21:50.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+15-Dec-2018 14:21:50.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Dec-2018 14:21:50.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Dec-2018 14:21:50.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             c:\Program Files\Java\jdk1.8.0_181\jre
+15-Dec-2018 14:21:50.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+15-Dec-2018 14:21:50.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Dec-2018 14:21:50.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:21:50.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:21:50.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Inbal\Makaka\tomcat\conf\logging.properties
+15-Dec-2018 14:21:50.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Dec-2018 14:21:50.393 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Dec-2018 14:21:50.393 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Dec-2018 14:21:50.393 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Dec-2018 14:21:50.393 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:21:50.394 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:21:50.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Inbal\Makaka\tomcat\temp
+15-Dec-2018 14:21:50.395 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [c:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Inbal\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Users\Inbal\AppData\Local\Microsoft\WindowsApps;C:\Users\Inbal\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;;.]
+15-Dec-2018 14:21:50.522 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:21:50.639 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 14:21:50.652 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:21:50.657 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 14:21:50.659 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 638 ms
+15-Dec-2018 14:21:50.692 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Dec-2018 14:21:50.693 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+15-Dec-2018 14:21:50.699 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs]
+15-Dec-2018 14:21:51.442 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:21:51.487 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs] has finished in [787] ms
+15-Dec-2018 14:21:51.487 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples]
+15-Dec-2018 14:21:52.097 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:21:52.145 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples] has finished in [658] ms
+15-Dec-2018 14:21:52.145 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager]
+15-Dec-2018 14:21:52.500 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:21:52.507 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager] has finished in [362] ms
+15-Dec-2018 14:21:52.508 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager]
+15-Dec-2018 14:21:52.904 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:21:52.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager] has finished in [399] ms
+15-Dec-2018 14:21:52.908 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer]
+15-Dec-2018 14:21:53.298 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:21:53.312 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer] has finished in [404] ms
+15-Dec-2018 14:21:53.313 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT]
+15-Dec-2018 14:21:53.731 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:21:53.736 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT] has finished in [423] ms
+15-Dec-2018 14:21:53.738 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:21:53.757 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:21:53.761 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3100 ms
+15-Dec-2018 14:21:57.935 INFO [http-nio-5000-exec-4] org.hibernate.annotations.common.Version.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+15-Dec-2018 14:21:57.940 INFO [http-nio-5000-exec-4] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.1.9.Final}
+15-Dec-2018 14:21:57.942 INFO [http-nio-5000-exec-4] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+15-Dec-2018 14:21:57.944 INFO [http-nio-5000-exec-4] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+15-Dec-2018 14:21:57.959 INFO [http-nio-5000-exec-4] org.hibernate.cfg.Configuration.configure HHH000042: Configuring from file: hibernate.cfg.xml
+15-Dec-2018 14:21:58.032 WARN [http-nio-5000-exec-4] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+15-Dec-2018 14:21:58.057 INFO [http-nio-5000-exec-4] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+15-Dec-2018 14:21:58.161 INFO [http-nio-5000-exec-4] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+15-Dec-2018 14:21:58.168 INFO [http-nio-5000-exec-4] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 1
+15-Dec-2018 14:21:58.168 INFO [http-nio-5000-exec-4] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000006: Autocommit mode: false
+15-Dec-2018 14:21:58.169 INFO [http-nio-5000-exec-4] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hibernatedb?serverTimezone=UTC]
+15-Dec-2018 14:21:58.169 INFO [http-nio-5000-exec-4] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000046: Connection properties: {user=root, password=****}
+15-Dec-2018 14:21:58.635 INFO [http-nio-5000-exec-4] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+15-Dec-2018 14:21:58.655 INFO [http-nio-5000-exec-4] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+15-Dec-2018 14:21:58.659 INFO [http-nio-5000-exec-4] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+15-Dec-2018 14:22:09.393 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:22:09.598 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:22:09.751 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Dec-2018 14:22:09.818 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:22:09.825 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:22:09.827 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:22:09.829 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:22:22.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+15-Dec-2018 14:22:22.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+15-Dec-2018 14:22:22.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+15-Dec-2018 14:22:22.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+15-Dec-2018 14:22:22.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Dec-2018 14:22:22.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Dec-2018 14:22:22.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             c:\Program Files\Java\jdk1.8.0_181\jre
+15-Dec-2018 14:22:22.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+15-Dec-2018 14:22:22.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Dec-2018 14:22:22.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:22:22.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:22:22.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Inbal\Makaka\tomcat\conf\logging.properties
+15-Dec-2018 14:22:22.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Dec-2018 14:22:22.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Dec-2018 14:22:22.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Dec-2018 14:22:22.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Dec-2018 14:22:22.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:22:22.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:22:22.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Inbal\Makaka\tomcat\temp
+15-Dec-2018 14:22:22.355 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [c:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Inbal\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Users\Inbal\AppData\Local\Microsoft\WindowsApps;C:\Users\Inbal\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;;.]
+15-Dec-2018 14:22:22.521 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:22:22.631 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 14:22:22.644 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:22:22.647 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 14:22:22.648 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 630 ms
+15-Dec-2018 14:22:22.685 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Dec-2018 14:22:22.685 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+15-Dec-2018 14:22:22.697 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs]
+15-Dec-2018 14:22:23.390 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:22:23.440 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs] has finished in [743] ms
+15-Dec-2018 14:22:23.442 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples]
+15-Dec-2018 14:22:24.083 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:22:24.140 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples] has finished in [697] ms
+15-Dec-2018 14:22:24.140 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager]
+15-Dec-2018 14:22:24.508 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:22:24.514 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager] has finished in [374] ms
+15-Dec-2018 14:22:24.515 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager]
+15-Dec-2018 14:22:48.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+15-Dec-2018 14:22:48.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+15-Dec-2018 14:22:48.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+15-Dec-2018 14:22:48.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+15-Dec-2018 14:22:48.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Dec-2018 14:22:48.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Dec-2018 14:22:48.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             c:\Program Files\Java\jdk1.8.0_181\jre
+15-Dec-2018 14:22:48.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+15-Dec-2018 14:22:48.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Dec-2018 14:22:48.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:22:48.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:22:48.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Inbal\Makaka\tomcat\conf\logging.properties
+15-Dec-2018 14:22:48.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Dec-2018 14:22:48.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Dec-2018 14:22:48.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Dec-2018 14:22:48.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Dec-2018 14:22:48.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:22:48.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:22:48.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Inbal\Makaka\tomcat\temp
+15-Dec-2018 14:22:48.719 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [c:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Inbal\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Users\Inbal\AppData\Local\Microsoft\WindowsApps;C:\Users\Inbal\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;;.]
+15-Dec-2018 14:22:48.845 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:22:48.963 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 14:22:48.977 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:22:48.977 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 14:22:48.977 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 644 ms
+15-Dec-2018 14:22:49.020 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Dec-2018 14:22:49.020 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+15-Dec-2018 14:22:49.026 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs]
+15-Dec-2018 14:22:49.780 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:22:49.838 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs] has finished in [812] ms
+15-Dec-2018 14:22:49.840 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples]
+15-Dec-2018 14:22:50.425 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:22:50.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples] has finished in [652] ms
+15-Dec-2018 14:22:50.493 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager]
+15-Dec-2018 14:22:50.868 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:22:50.875 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager] has finished in [382] ms
+15-Dec-2018 14:22:50.876 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager]
+15-Dec-2018 14:22:51.213 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:22:51.222 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager] has finished in [346] ms
+15-Dec-2018 14:22:51.224 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer]
+15-Dec-2018 14:22:51.619 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:22:51.626 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer] has finished in [403] ms
+15-Dec-2018 14:22:51.626 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT]
+15-Dec-2018 14:22:52.185 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:22:52.189 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT] has finished in [563] ms
+15-Dec-2018 14:22:52.194 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:22:52.209 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:22:52.214 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3230 ms
+15-Dec-2018 14:22:53.379 INFO [http-nio-5000-exec-1] org.hibernate.annotations.common.Version.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+15-Dec-2018 14:22:53.385 INFO [http-nio-5000-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.1.9.Final}
+15-Dec-2018 14:22:53.388 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+15-Dec-2018 14:22:53.390 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+15-Dec-2018 14:22:53.408 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Configuration.configure HHH000042: Configuring from file: hibernate.cfg.xml
+15-Dec-2018 14:22:53.475 WARN [http-nio-5000-exec-1] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+15-Dec-2018 14:22:53.496 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+15-Dec-2018 14:22:53.604 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+15-Dec-2018 14:22:53.611 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 1
+15-Dec-2018 14:22:53.611 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000006: Autocommit mode: false
+15-Dec-2018 14:22:53.612 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hibernatedb?serverTimezone=UTC]
+15-Dec-2018 14:22:53.613 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000046: Connection properties: {user=root, password=****}
+15-Dec-2018 14:22:54.089 INFO [http-nio-5000-exec-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+15-Dec-2018 14:22:54.107 INFO [http-nio-5000-exec-1] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+15-Dec-2018 14:22:54.110 INFO [http-nio-5000-exec-1] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+15-Dec-2018 14:24:14.368 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:24:14.543 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:24:14.687 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Dec-2018 14:24:14.725 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:24:14.777 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:24:14.790 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:24:14.797 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:24:16.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+15-Dec-2018 14:24:16.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+15-Dec-2018 14:24:16.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+15-Dec-2018 14:24:16.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+15-Dec-2018 14:24:16.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Dec-2018 14:24:16.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Dec-2018 14:24:16.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             c:\Program Files\Java\jdk1.8.0_181\jre
+15-Dec-2018 14:24:16.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+15-Dec-2018 14:24:16.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Dec-2018 14:24:16.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:24:16.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:24:16.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Inbal\Makaka\tomcat\conf\logging.properties
+15-Dec-2018 14:24:16.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Dec-2018 14:24:16.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Dec-2018 14:24:16.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Dec-2018 14:24:16.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Dec-2018 14:24:16.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:24:16.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:24:16.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Inbal\Makaka\tomcat\temp
+15-Dec-2018 14:24:16.944 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [c:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Inbal\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Users\Inbal\AppData\Local\Microsoft\WindowsApps;C:\Users\Inbal\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;;.]
+15-Dec-2018 14:24:17.081 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:24:17.203 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 14:24:17.216 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:24:17.218 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 14:24:17.220 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 641 ms
+15-Dec-2018 14:24:17.257 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Dec-2018 14:24:17.257 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+15-Dec-2018 14:24:17.260 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs]
+15-Dec-2018 14:24:18.069 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:24:18.106 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs] has finished in [846] ms
+15-Dec-2018 14:24:18.112 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples]
+15-Dec-2018 14:24:18.874 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:24:18.966 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples] has finished in [854] ms
+15-Dec-2018 14:24:18.967 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager]
+15-Dec-2018 14:24:19.693 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:24:19.705 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager] has finished in [739] ms
+15-Dec-2018 14:24:19.706 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager]
+15-Dec-2018 14:24:20.427 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:24:20.437 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager] has finished in [732] ms
+15-Dec-2018 14:24:20.438 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer]
+15-Dec-2018 14:24:21.252 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:24:21.259 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer] has finished in [821] ms
+15-Dec-2018 14:24:21.263 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT]
+15-Dec-2018 14:24:22.018 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:24:22.025 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT] has finished in [762] ms
+15-Dec-2018 14:24:22.040 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:24:22.060 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:24:22.063 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4843 ms
+15-Dec-2018 14:24:22.380 INFO [http-nio-5000-exec-1] org.hibernate.annotations.common.Version.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+15-Dec-2018 14:24:22.391 INFO [http-nio-5000-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.1.9.Final}
+15-Dec-2018 14:24:22.397 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+15-Dec-2018 14:24:22.402 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+15-Dec-2018 14:24:22.438 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Configuration.configure HHH000042: Configuring from file: hibernate.cfg.xml
+15-Dec-2018 14:24:22.589 WARN [http-nio-5000-exec-1] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+15-Dec-2018 14:24:22.651 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+15-Dec-2018 14:24:22.867 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+15-Dec-2018 14:24:22.873 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 1
+15-Dec-2018 14:24:22.874 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000006: Autocommit mode: false
+15-Dec-2018 14:24:22.875 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hibernatedb?serverTimezone=UTC]
+15-Dec-2018 14:24:22.876 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000046: Connection properties: {user=root, password=****}
+15-Dec-2018 14:24:23.392 INFO [http-nio-5000-exec-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+15-Dec-2018 14:24:23.412 INFO [http-nio-5000-exec-1] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+15-Dec-2018 14:24:23.420 INFO [http-nio-5000-exec-1] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+15-Dec-2018 14:25:10.916 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:25:11.117 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:25:11.296 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Dec-2018 14:25:11.342 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:25:11.347 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:25:11.351 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:25:11.355 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:25:37.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+15-Dec-2018 14:25:37.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+15-Dec-2018 14:25:37.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+15-Dec-2018 14:25:37.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+15-Dec-2018 14:25:37.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Dec-2018 14:25:37.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Dec-2018 14:25:37.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             c:\Program Files\Java\jdk1.8.0_181\jre
+15-Dec-2018 14:25:37.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+15-Dec-2018 14:25:37.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Dec-2018 14:25:37.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:25:37.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:25:37.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Inbal\Makaka\tomcat\conf\logging.properties
+15-Dec-2018 14:25:37.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Dec-2018 14:25:37.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Dec-2018 14:25:37.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Dec-2018 14:25:37.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Dec-2018 14:25:37.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:25:37.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:25:37.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Inbal\Makaka\tomcat\temp
+15-Dec-2018 14:25:37.960 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [c:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Inbal\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Users\Inbal\AppData\Local\Microsoft\WindowsApps;C:\Users\Inbal\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;;.]
+15-Dec-2018 14:25:38.083 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:25:38.197 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 14:25:38.211 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:25:38.217 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 14:25:38.218 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 613 ms
+15-Dec-2018 14:25:38.253 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Dec-2018 14:25:38.253 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+15-Dec-2018 14:25:38.274 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs]
+15-Dec-2018 14:25:39.096 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:25:39.146 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs] has finished in [872] ms
+15-Dec-2018 14:25:39.147 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples]
+15-Dec-2018 14:25:39.813 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:25:39.862 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples] has finished in [715] ms
+15-Dec-2018 14:25:39.862 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager]
+15-Dec-2018 14:25:40.296 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:25:40.308 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager] has finished in [446] ms
+15-Dec-2018 14:25:40.310 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager]
+15-Dec-2018 14:25:40.756 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:25:40.764 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager] has finished in [456] ms
+15-Dec-2018 14:25:40.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer]
+15-Dec-2018 14:25:41.358 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:25:41.366 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer] has finished in [602] ms
+15-Dec-2018 14:25:41.366 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT]
+15-Dec-2018 14:25:41.917 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:25:41.922 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT] has finished in [556] ms
+15-Dec-2018 14:25:41.925 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:25:41.938 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:25:41.942 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3723 ms
+15-Dec-2018 14:25:44.559 INFO [http-nio-5000-exec-1] org.hibernate.annotations.common.Version.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+15-Dec-2018 14:25:44.565 INFO [http-nio-5000-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.1.9.Final}
+15-Dec-2018 14:25:44.570 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+15-Dec-2018 14:25:44.573 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+15-Dec-2018 14:25:44.602 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Configuration.configure HHH000042: Configuring from file: hibernate.cfg.xml
+15-Dec-2018 14:25:44.747 WARN [http-nio-5000-exec-1] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+15-Dec-2018 14:25:44.787 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+15-Dec-2018 14:25:44.957 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+15-Dec-2018 14:25:44.965 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 1
+15-Dec-2018 14:25:44.966 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000006: Autocommit mode: false
+15-Dec-2018 14:25:44.967 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hibernatedb?serverTimezone=UTC]
+15-Dec-2018 14:25:44.968 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000046: Connection properties: {user=root, password=****}
+15-Dec-2018 14:25:45.756 INFO [http-nio-5000-exec-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+15-Dec-2018 14:25:45.787 INFO [http-nio-5000-exec-1] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+15-Dec-2018 14:25:45.794 INFO [http-nio-5000-exec-1] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+15-Dec-2018 14:26:08.157 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:26:08.372 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:26:08.506 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Dec-2018 14:26:08.549 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:26:08.560 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:26:08.566 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:26:08.566 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:27:35.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+15-Dec-2018 14:27:35.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+15-Dec-2018 14:27:35.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+15-Dec-2018 14:27:35.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+15-Dec-2018 14:27:35.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Dec-2018 14:27:35.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Dec-2018 14:27:35.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             c:\Program Files\Java\jdk1.8.0_181\jre
+15-Dec-2018 14:27:35.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+15-Dec-2018 14:27:35.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Dec-2018 14:27:35.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:27:35.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:27:35.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Inbal\Makaka\tomcat\conf\logging.properties
+15-Dec-2018 14:27:35.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Dec-2018 14:27:35.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Dec-2018 14:27:35.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Dec-2018 14:27:35.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Dec-2018 14:27:35.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:27:35.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:27:35.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Inbal\Makaka\tomcat\temp
+15-Dec-2018 14:27:35.103 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [c:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Inbal\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Users\Inbal\AppData\Local\Microsoft\WindowsApps;C:\Users\Inbal\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;;.]
+15-Dec-2018 14:27:35.236 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:27:35.343 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 14:27:35.358 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:27:35.362 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 14:27:35.363 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 611 ms
+15-Dec-2018 14:27:35.397 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Dec-2018 14:27:35.399 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+15-Dec-2018 14:27:35.420 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs]
+15-Dec-2018 14:27:36.219 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:27:36.259 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs] has finished in [839] ms
+15-Dec-2018 14:27:36.260 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples]
+15-Dec-2018 14:27:37.149 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:27:37.231 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples] has finished in [971] ms
+15-Dec-2018 14:27:37.252 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager]
+15-Dec-2018 14:27:38.075 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:27:38.100 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager] has finished in [849] ms
+15-Dec-2018 14:27:38.102 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager]
+15-Dec-2018 14:27:38.954 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:27:38.961 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager] has finished in [859] ms
+15-Dec-2018 14:27:38.962 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer]
+15-Dec-2018 14:27:39.927 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:27:39.937 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer] has finished in [976] ms
+15-Dec-2018 14:27:39.938 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT]
+15-Dec-2018 14:27:40.734 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:27:40.738 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT] has finished in [800] ms
+15-Dec-2018 14:27:40.742 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:27:40.757 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:27:40.763 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5397 ms
+15-Dec-2018 14:27:40.938 INFO [http-nio-5000-exec-1] org.hibernate.annotations.common.Version.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+15-Dec-2018 14:27:40.944 INFO [http-nio-5000-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.1.9.Final}
+15-Dec-2018 14:27:40.948 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+15-Dec-2018 14:27:40.949 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+15-Dec-2018 14:27:40.967 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Configuration.configure HHH000042: Configuring from file: hibernate.cfg.xml
+15-Dec-2018 14:27:41.049 WARN [http-nio-5000-exec-1] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+15-Dec-2018 14:27:41.071 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+15-Dec-2018 14:27:41.180 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+15-Dec-2018 14:27:41.182 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 1
+15-Dec-2018 14:27:41.184 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000006: Autocommit mode: false
+15-Dec-2018 14:27:41.184 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hibernatedb?serverTimezone=UTC]
+15-Dec-2018 14:27:41.185 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000046: Connection properties: {user=root, password=****}
+15-Dec-2018 14:27:41.659 INFO [http-nio-5000-exec-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+15-Dec-2018 14:27:41.680 INFO [http-nio-5000-exec-1] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+15-Dec-2018 14:27:41.686 INFO [http-nio-5000-exec-1] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+15-Dec-2018 14:27:56.505 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:27:56.626 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:27:56.724 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Dec-2018 14:27:56.773 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:27:56.778 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:27:56.781 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:27:56.782 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:47:24.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+15-Dec-2018 14:47:24.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+15-Dec-2018 14:47:24.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+15-Dec-2018 14:47:24.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+15-Dec-2018 14:47:24.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Dec-2018 14:47:24.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Dec-2018 14:47:24.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             c:\Program Files\Java\jdk1.8.0_181\jre
+15-Dec-2018 14:47:24.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+15-Dec-2018 14:47:24.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Dec-2018 14:47:24.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:47:24.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:47:24.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Inbal\Makaka\tomcat\conf\logging.properties
+15-Dec-2018 14:47:24.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Dec-2018 14:47:24.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Dec-2018 14:47:24.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Dec-2018 14:47:24.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Dec-2018 14:47:24.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:47:24.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 14:47:24.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Inbal\Makaka\tomcat\temp
+15-Dec-2018 14:47:24.354 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [c:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Inbal\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Users\Inbal\AppData\Local\Microsoft\WindowsApps;C:\Users\Inbal\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;;.]
+15-Dec-2018 14:47:24.498 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:47:24.613 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 14:47:24.629 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:47:24.633 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 14:47:24.634 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 618 ms
+15-Dec-2018 14:47:24.669 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Dec-2018 14:47:24.669 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+15-Dec-2018 14:47:24.696 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs]
+15-Dec-2018 14:47:25.540 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:47:25.583 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs] has finished in [887] ms
+15-Dec-2018 14:47:25.583 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples]
+15-Dec-2018 14:47:26.284 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:47:26.330 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples] has finished in [747] ms
+15-Dec-2018 14:47:26.338 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager]
+15-Dec-2018 14:47:26.756 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:47:26.769 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager] has finished in [431] ms
+15-Dec-2018 14:47:26.770 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager]
+15-Dec-2018 14:47:27.136 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:47:27.143 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager] has finished in [374] ms
+15-Dec-2018 14:47:27.145 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer]
+15-Dec-2018 14:47:27.652 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:47:27.660 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer] has finished in [517] ms
+15-Dec-2018 14:47:27.660 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT]
+15-Dec-2018 14:47:28.064 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 14:47:28.068 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT] has finished in [408] ms
+15-Dec-2018 14:47:28.074 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 14:47:28.084 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 14:47:28.087 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3452 ms
+15-Dec-2018 14:47:48.802 INFO [http-nio-5000-exec-1] org.hibernate.annotations.common.Version.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+15-Dec-2018 14:47:48.813 INFO [http-nio-5000-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.1.9.Final}
+15-Dec-2018 14:47:48.818 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+15-Dec-2018 14:47:48.820 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+15-Dec-2018 14:47:48.851 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Configuration.configure HHH000042: Configuring from file: hibernate.cfg.xml
+15-Dec-2018 14:47:48.985 WARN [http-nio-5000-exec-1] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+15-Dec-2018 14:47:49.018 INFO [http-nio-5000-exec-1] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+15-Dec-2018 14:47:49.156 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+15-Dec-2018 14:47:49.159 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 1
+15-Dec-2018 14:47:49.161 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000006: Autocommit mode: false
+15-Dec-2018 14:47:49.162 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hibernatedb?serverTimezone=UTC]
+15-Dec-2018 14:47:49.162 INFO [http-nio-5000-exec-1] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000046: Connection properties: {user=root, password=****}
+15-Dec-2018 14:47:49.814 INFO [http-nio-5000-exec-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+15-Dec-2018 14:47:49.850 INFO [http-nio-5000-exec-1] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+15-Dec-2018 14:47:49.857 INFO [http-nio-5000-exec-1] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+15-Dec-2018 15:11:51.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+15-Dec-2018 15:11:51.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+15-Dec-2018 15:11:51.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+15-Dec-2018 15:11:51.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+15-Dec-2018 15:11:51.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Dec-2018 15:11:51.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Dec-2018 15:11:51.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             c:\Program Files\Java\jdk1.8.0_181\jre
+15-Dec-2018 15:11:51.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+15-Dec-2018 15:11:51.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Dec-2018 15:11:51.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 15:11:51.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 15:11:51.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Inbal\Makaka\tomcat\conf\logging.properties
+15-Dec-2018 15:11:51.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Dec-2018 15:11:51.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Dec-2018 15:11:51.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Dec-2018 15:11:51.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Dec-2018 15:11:51.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 15:11:51.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 15:11:51.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Inbal\Makaka\tomcat\temp
+15-Dec-2018 15:11:51.077 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [c:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Inbal\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Users\Inbal\AppData\Local\Microsoft\WindowsApps;C:\Users\Inbal\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;;.]
+15-Dec-2018 15:11:51.217 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 15:11:51.335 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 15:11:51.335 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-5000]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:976)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:883)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:646)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:669)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:306)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:491)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1067)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1080)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:550)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:973)
+	... 13 more
+
+15-Dec-2018 15:11:51.338 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 15:11:51.340 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 15:11:51.340 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:976)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:883)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:646)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:669)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:306)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:491)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1067)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1080)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:550)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:973)
+	... 13 more
+
+15-Dec-2018 15:11:51.341 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 669 ms
+15-Dec-2018 15:11:51.374 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Dec-2018 15:11:51.374 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+15-Dec-2018 15:11:51.385 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs]
+15-Dec-2018 15:11:52.178 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 15:11:52.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs] has finished in [844] ms
+15-Dec-2018 15:11:52.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples]
+15-Dec-2018 15:11:52.916 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 15:11:52.975 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples] has finished in [744] ms
+15-Dec-2018 15:11:52.975 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager]
+15-Dec-2018 15:11:55.762 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 15:11:55.875 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 15:11:55.959 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Dec-2018 15:11:55.993 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 15:11:55.999 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 15:11:56.002 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 15:11:56.003 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 15:12:04.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+15-Dec-2018 15:12:04.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+15-Dec-2018 15:12:04.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+15-Dec-2018 15:12:04.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+15-Dec-2018 15:12:04.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Dec-2018 15:12:04.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Dec-2018 15:12:04.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             c:\Program Files\Java\jdk1.8.0_181\jre
+15-Dec-2018 15:12:04.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+15-Dec-2018 15:12:04.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Dec-2018 15:12:04.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 15:12:04.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 15:12:04.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Inbal\Makaka\tomcat\conf\logging.properties
+15-Dec-2018 15:12:04.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Dec-2018 15:12:04.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Dec-2018 15:12:04.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Dec-2018 15:12:04.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Dec-2018 15:12:04.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 15:12:04.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Inbal\Makaka\tomcat
+15-Dec-2018 15:12:04.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Inbal\Makaka\tomcat\temp
+15-Dec-2018 15:12:04.975 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [c:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Inbal\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Users\Inbal\AppData\Local\Microsoft\WindowsApps;C:\Users\Inbal\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;;.]
+15-Dec-2018 15:12:05.123 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 15:12:05.257 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 15:12:05.271 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 15:12:05.274 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2018 15:12:05.275 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 688 ms
+15-Dec-2018 15:12:05.310 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Dec-2018 15:12:05.311 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+15-Dec-2018 15:12:05.337 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs]
+15-Dec-2018 15:12:06.162 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 15:12:06.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\docs] has finished in [867] ms
+15-Dec-2018 15:12:06.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples]
+15-Dec-2018 15:12:06.993 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 15:12:07.052 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\examples] has finished in [848] ms
+15-Dec-2018 15:12:07.054 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager]
+15-Dec-2018 15:12:07.551 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 15:12:07.561 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\host-manager] has finished in [507] ms
+15-Dec-2018 15:12:07.565 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager]
+15-Dec-2018 15:12:08.123 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 15:12:08.129 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\manager] has finished in [565] ms
+15-Dec-2018 15:12:08.130 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer]
+15-Dec-2018 15:12:08.645 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 15:12:08.653 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\PipeServer] has finished in [523] ms
+15-Dec-2018 15:12:08.654 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT]
+15-Dec-2018 15:12:09.066 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2018 15:12:09.069 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Inbal\Makaka\tomcat\webapps\ROOT] has finished in [416] ms
+15-Dec-2018 15:12:09.074 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-5000"]
+15-Dec-2018 15:12:09.085 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2018 15:12:09.088 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3810 ms
+15-Dec-2018 15:12:11.294 INFO [http-nio-5000-exec-2] org.hibernate.annotations.common.Version.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+15-Dec-2018 15:12:11.304 INFO [http-nio-5000-exec-2] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.1.9.Final}
+15-Dec-2018 15:12:11.307 INFO [http-nio-5000-exec-2] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+15-Dec-2018 15:12:11.310 INFO [http-nio-5000-exec-2] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+15-Dec-2018 15:12:11.342 INFO [http-nio-5000-exec-2] org.hibernate.cfg.Configuration.configure HHH000042: Configuring from file: hibernate.cfg.xml
+15-Dec-2018 15:12:11.429 WARN [http-nio-5000-exec-2] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+15-Dec-2018 15:12:11.456 INFO [http-nio-5000-exec-2] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+15-Dec-2018 15:12:11.568 INFO [http-nio-5000-exec-2] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+15-Dec-2018 15:12:11.572 INFO [http-nio-5000-exec-2] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 1
+15-Dec-2018 15:12:11.573 INFO [http-nio-5000-exec-2] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000006: Autocommit mode: false
+15-Dec-2018 15:12:11.573 INFO [http-nio-5000-exec-2] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hibernatedb?serverTimezone=UTC]
+15-Dec-2018 15:12:11.574 INFO [http-nio-5000-exec-2] org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000046: Connection properties: {user=root, password=****}
+15-Dec-2018 15:12:12.097 INFO [http-nio-5000-exec-2] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+15-Dec-2018 15:12:12.116 INFO [http-nio-5000-exec-2] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+15-Dec-2018 15:12:12.121 INFO [http-nio-5000-exec-2] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory

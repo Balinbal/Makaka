@@ -28,7 +28,7 @@ public class MainWindowController implements Initializable{
     MediaPlayer backgroundMusicPlayer;
 
     public MainWindowController(){
-        controller = new BoardController();
+        controller = new BoardController(null);
         backgroundMusicPlayer = null;
     }
 
@@ -49,6 +49,7 @@ public class MainWindowController implements Initializable{
                 alert.setContentText("Well done! Stage completed!");
                 alert.showAndWait().ifPresent(rs -> {
                 });
+                this.controller.incrementLevel();
             } else {
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 alert.setTitle("Incorrect!");
@@ -68,6 +69,38 @@ public class MainWindowController implements Initializable{
 
     }
 
+    public void HandleSolveButton()
+    {
+        char[][] board = this.boardDisplayer.getBoard();
+        String solutionFromServer = controller.getSolution(board);
+        String[] solution = solutionFromServer.split("\\|");
+        for(int i=0; i<solution.length; ++i)
+        {
+            if (solution[i].equals("done"))
+            {
+                break;
+            }
+            String[] moveSpecificPipe = solution[i].split(",");
+            int y = Integer.parseInt(moveSpecificPipe[0]);
+            int x = Integer.parseInt(moveSpecificPipe[1]);
+            int numberOfRotations = Integer.parseInt(moveSpecificPipe[2]);
+            for(int j=0; j<numberOfRotations; ++j)
+            {
+                board = controller.handleCellClick(board,x,y);
+                System.out.println("rotate "+Integer.toString(y)+","+Integer.toString(x));
+                boardDisplayer.setBoard(board);
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+
+        }
+
+
+
+    }
     public void changeBackgroundMusic()
     {
         if (this.backgroundMusicPlayer != null) {
@@ -100,12 +133,14 @@ public class MainWindowController implements Initializable{
             boardDisplayer.setBoard(rotatedBoard);
         });
 
-        char[][] data = {
-            {'S','|','7'},
-            {'F','-','J'},
-            {'J','|','G'}
-        };
-
-        boardDisplayer.setBoard(data);
+        this.controller.setDisplayer(boardDisplayer);
+        this.controller.drawBoard();
+//        char[][] data = {
+//            {'S','|','7'},
+//            {'F','-','J'},
+//            {'J','|','G'}
+//        };
+//
+//        boardDisplayer.setBoard(data);
     }
 }

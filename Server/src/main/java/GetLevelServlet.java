@@ -1,11 +1,11 @@
 import Model.Level;
 import Model.ModelUtil;
-import Model.ModelUtil.*;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import sun.util.logging.PlatformLogger;
 
 import java.io.*;
+import java.util.List;
 import javax.servlet.*;
 import javax.servlet.http.*;
 
@@ -16,20 +16,14 @@ public class GetLevelServlet extends HttpServlet {
     {
         SessionFactory sessionFactory = ModelUtil.getSessionFactory();
         Session session = sessionFactory.openSession();
-        session.beginTransaction();
 
-        Level dbLevel = new Level();
-        dbLevel.setBoard("SXG");
-        dbLevel.setLevel(1);
+        List<Level> levels = session.createQuery("from Level where level=" + Integer.toString(level)).list();
 
-        Level dbLevel2 = new Level();
-        dbLevel.setBoard("SXXG");
-        dbLevel.setLevel(2);
-
-        session.save(dbLevel);
-        session.getTransaction().commit();
         session.close();
-        return "Bam";
+        if (levels.size() == 0) {
+            return "";
+        }
+        return levels.get(0).getBoard();
     }
 
     @Override

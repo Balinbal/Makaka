@@ -15,7 +15,7 @@ public class Level {
     private String board;
     private Integer level;
 
-    public Level() {};
+    public Level() {}
 
     public Level(Integer id, String board, Integer level) {
         this.id = id;

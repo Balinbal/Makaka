@@ -11,6 +11,7 @@ public class HTTPServerCommunicator implements  IServerCommunicator {
     private int port;
     public static String baseURL = "/PipeServer";
     public static String solveAPI = "/solve";
+    public static String getLevelAPI = "/getlevel";
 
     public HTTPServerCommunicator(String serverIp, int port)
     {
@@ -37,6 +38,27 @@ public class HTTPServerCommunicator implements  IServerCommunicator {
         } catch (Exception e) {
             return "";
         }
+    }
+
+    @Override
+    public char[][] getBoard(int level) {
+        //http://localhost:5000/PipeServer/getlevel?level=2
+        try {
+            String res = this.get(HTTPServerCommunicator.getLevelAPI, "?level=" + Integer.toString(level)).toString();
+            res = res.replace("X", "|");
+            String[] splitted = res.split(";");
+            char[][] ret = new char[splitted.length][splitted[0].length()];
+            for (int i = 0; i < splitted.length; ++i) {
+                for (int j = 0; j < splitted[0].length(); ++j) {
+                    ret[i][j] = splitted[i].charAt(j);
+                }
+            }
+            return ret;
+
+        } catch (Exception e) {
+            return new char[][]{};
+        }
+
     }
 
     @Override
