@@ -42,11 +42,6 @@
                   <MenuItem mnemonicParsing="false" onAction="#HandleTopTenAllLevels" text="All levels" />
               </items>
             </Menu>
-          <Menu mnemonicParsing="false" text="Solve">
-            <items>
-              <MenuItem mnemonicParsing="false" text="Solve!" />
-            </items>
-          </Menu>
         </menus>
       </MenuBar>
    </top>
@@ -84,11 +79,27 @@
                   </Label>
                </children>
             </VBox>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#HandleDoneButton" prefHeight="31.0" prefWidth="59.0" text="Done!">
-               <font>
-                  <Font name="BN Bilbo" size="15.0" />
-               </font></Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#HandleSolveButton" prefHeight="31.0" prefWidth="61.0" text="Solve" />
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#HandleDoneButton" prefHeight="50.0" prefWidth="80.0" text="Done">
+                     <font>
+                        <Font name="Cooper Black" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#HandleSolveButton" prefHeight="51.0" prefWidth="79.0" text="Solve">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <font>
+                        <Font name="Cooper Black" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
          </children>
       </HBox>
    </bottom>
