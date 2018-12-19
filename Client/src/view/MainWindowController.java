@@ -45,13 +45,28 @@ public class MainWindowController implements Initializable{
         time = 0;
     }
 
+    public void HandleThemeMario()
+    {
+        borderPane.changeTheme("mario");
+        boardDisplayer.setTheme("mario");
+        changeBackgroundMusic();
+    }
 
+    public void HandleThemeSilver()
+    {
+        borderPane.changeTheme("silver");
+        boardDisplayer.setTheme("silver");
+        changeBackgroundMusic();
+    }
+
+    public void HandleThemeDefault()
+    {
+        borderPane.changeTheme("default");
+        boardDisplayer.setTheme("default");
+        changeBackgroundMusic();
+    }
     public void HandleDoneButton()
     {
-        borderPane.changeTheme("red");
-        boardDisplayer.setTheme("red");
-        changeBackgroundMusic();
-
         char[][] board = this.boardDisplayer.getBoard();
         try {
             boolean solved = controller.isSolved(board);

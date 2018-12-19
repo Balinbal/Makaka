@@ -1,0 +1,16 @@
+127.0.0.1 - - [19/Dec/2018:18:15:05 +0200] "GET /PipeServer/getlevel?level=1 HTTP/1.1" 200 3
+127.0.0.1 - - [19/Dec/2018:18:15:08 +0200] "GET /PipeServer/solve?board=S-G; HTTP/1.1" 200 4
+127.0.0.1 - - [19/Dec/2018:18:15:09 +0200] "GET /PipeServer/setscore?user=yu&level=1&time=3&steps=1 HTTP/1.1" 200 7
+127.0.0.1 - - [19/Dec/2018:18:15:09 +0200] "GET /PipeServer/getlevel?level=2 HTTP/1.1" 200 13
+127.0.0.1 - - [19/Dec/2018:18:16:16 +0200] "GET /PipeServer/getlevel?level=1 HTTP/1.1" 200 3
+127.0.0.1 - - [19/Dec/2018:18:16:20 +0200] "GET /PipeServer/solve?board=S-G; HTTP/1.1" 200 4
+127.0.0.1 - - [19/Dec/2018:18:16:21 +0200] "GET /PipeServer/setscore?user=yuval&level=1&time=3&steps=1 HTTP/1.1" 200 7
+127.0.0.1 - - [19/Dec/2018:18:16:21 +0200] "GET /PipeServer/getlevel?level=2 HTTP/1.1" 200 14
+127.0.0.1 - - [19/Dec/2018:18:17:13 +0200] "GET /PipeServer/getlevel?level=1 HTTP/1.1" 200 3
+127.0.0.1 - - [19/Dec/2018:18:17:14 +0200] "GET /PipeServer/solve?board=S-G; HTTP/1.1" 200 4
+127.0.0.1 - - [19/Dec/2018:18:17:15 +0200] "GET /PipeServer/setscore?user=g&level=1&time=2&steps=1 HTTP/1.1" 200 7
+127.0.0.1 - - [19/Dec/2018:18:17:15 +0200] "GET /PipeServer/getlevel?level=2 HTTP/1.1" 200 14
+127.0.0.1 - - [19/Dec/2018:18:44:43 +0200] "GET /PipeServer/getlevel?level=1 HTTP/1.1" 200 3
+127.0.0.1 - - [19/Dec/2018:18:44:45 +0200] "GET /PipeServer/solve?board=S-G; HTTP/1.1" 200 4
+127.0.0.1 - - [19/Dec/2018:18:44:46 +0200] "GET /PipeServer/setscore?user=yuv'&level=1&time=2&steps=1 HTTP/1.1" 500 2379
+127.0.0.1 - - [19/Dec/2018:18:44:46 +0200] "GET /PipeServer/getlevel?level=2 HTTP/1.1" 200 14
