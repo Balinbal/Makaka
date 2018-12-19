@@ -4,6 +4,7 @@ import Controller.BoardController;
 import Controller.ServerCommunicator;
 import Model.ScoreRepresentation;
 import javafx.application.Platform;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
@@ -13,7 +14,9 @@ import javafx.scene.image.Image;
 import javafx.scene.layout.*;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
+import Logic.Save;
 
+import javax.xml.ws.handler.LogicalHandler;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -241,5 +244,9 @@ public class MainWindowController implements Initializable{
             }
 
         }
+    }
+
+    public void HandleSave(ActionEvent actionEvent) {
+        Save.saveSolution(this.controller.getLevel(), this.boardDisplayer.getBoard(),MainWindowController.CurrentUser);
     }
 }
