@@ -4,7 +4,7 @@ import view.MainWindowController;
 
 import java.io.*;
 
-public class Save {
+public class SaveAndLoad {
     private static String repository = "repository";
 //    private boolean isDirCreated = false;
 
@@ -37,6 +37,34 @@ public class Save {
         }
     }
 
+
+    public static char[][] LoadSolution(int level,String playerName) {
+
+        try {
+                String board=null;
+                File filePath = new File(repository, playerName+"-"+String.valueOf(level)+".txt");
+                if (filePath.exists())
+                {
+                    BufferedReader reader= new BufferedReader(new FileReader(filePath));
+                    board = reader.readLine();
+                    //Close reader
+                    reader.close();
+                    String[] splitted = board.split(";");
+                    char[][] ret = new char[splitted.length][splitted[0].length()];
+                    for (int i = 0; i < splitted.length; ++i) {
+                        for (int j = 0; j < splitted[0].length(); ++j) {
+                            ret[i][j] = splitted[i].charAt(j);
+                        }
+                    }
+                    return (ret);
+                }
+        } catch (IOException exception) {
+            System.out.println(String.join(": ", "Couldn't saveSolution file error", exception.toString()));
+            return new char[][]{};
+        }
+        return new char[0][];
+    }
+
     private static String ConvertBoardToString(char[][] board)
     {
         String stringBoard="";
@@ -48,5 +76,6 @@ public class Save {
         }
         return stringBoard.toString();
     }
+
 
 }
