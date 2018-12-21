@@ -11,18 +11,16 @@ import java.util.List;
 
 public class HTTPServerCommunicator implements  IServerCommunicator {
 
-    private String serverIp;
-    private int port;
+    private String serverUrl;
     public static String baseURL = "/PipeServer";
     public static String solveAPI = "/solve";
     public static String getLevelAPI = "/getlevel";
     public static String setScoreAPI = "/setscore";
     public static String toplevelsolversAPI = "/toplevelsolvers";
 
-    public HTTPServerCommunicator(String serverIp, int port)
+    public HTTPServerCommunicator(String serverUrl)
     {
-        this.serverIp = serverIp;
-        this.port = port;
+        this.serverUrl = serverUrl;
     }
 
     @Override
@@ -103,17 +101,17 @@ public class HTTPServerCommunicator implements  IServerCommunicator {
     }
 
     @Override
-    public void setIp(String ip) {
-        this.serverIp = ip;
+    public void set(String serverUrl) {
+        this.serverUrl = serverUrl;
     }
 
     @Override
-    public void setPort(int port) {
-        this.port = port;
+    public String getCurrentURL() {
+        return this.serverUrl;
     }
 
     private String get(String api, String params) throws Exception {
-        String url = "http://" + this.serverIp + ":" + Integer.toString(this.port) +
+        String url = "http://" + this.serverUrl +
                 HTTPServerCommunicator.baseURL + api + params;
 
         URL obj = new URL(url);

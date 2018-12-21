@@ -1,16 +1,17 @@
-package view;
+package Controller;
 
-import Controller.BoardController;
 import Model.ScoreRepresentation;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import Logic.SaveAndLoad;
+import view.BoardDisplayer;
+import view.CustomBorderPane;
+import view.MessageBoxDisplayer;
 
 import java.io.File;
 import java.net.URL;
@@ -41,6 +42,11 @@ public class MainWindowController implements Initializable{
         time = 0;
     }
 
+    public void HandleSettings()
+    {
+        String res = ServerPickerController.show(this.controller.getServer());
+        this.controller.setServer(res);
+    }
     public void HandleThemeMario()
     {
         borderPane.changeTheme("mario");
@@ -67,33 +73,20 @@ public class MainWindowController implements Initializable{
         try {
             boolean solved = controller.isSolved(board);
             if (solved) {
-
-                Alert alert = new Alert(Alert.AlertType.INFORMATION);
-                alert.setTitle("Stage completed");
-                alert.setHeaderText("You did it, " + MainWindowController.CurrentUser+"!");
-                alert.setContentText("Well done! Stage completed!");
-                alert.showAndWait().ifPresent(rs -> {
-                });
+                MessageBoxDisplayer.showInfo("Stage completed",
+                        "You did it, " + MainWindowController.CurrentUser+"!",
+                        "Well done! Stage completed!");
                 this.controller.markFinished(MainWindowController.CurrentUser, this.steps, this.time);
                 this.controller.incrementLevel();
                 this.initializeNewLevel();
 
 
             } else {
-                Alert alert = new Alert(Alert.AlertType.INFORMATION);
-                alert.setTitle("Incorrect!");
-                alert.setHeaderText("Not good enough!");
-                alert.setContentText("The solution is incorrect or it is not the best solution. Please keep trying");
-                alert.showAndWait().ifPresent(rs -> {
-                });
+                MessageBoxDisplayer.showInfo("Incorrect!", "Not good enough!",
+                        "The solution is incorrect or it is not the best solution. Please keep trying");
             }
         } catch(Exception e) {
-            Alert alert = new Alert(Alert.AlertType.ERROR);
-            alert.setTitle("Error!");
-            alert.setHeaderText("Oops!");
-            alert.setContentText("There was a problem checking the solution with the server. Try again later");
-            alert.showAndWait().ifPresent(rs -> {
-            });
+            MessageBoxDisplayer.showError("Error!", "Oops!", "There was a problem checking the solution with the server. Try again later");
         }
 
     }
@@ -106,7 +99,7 @@ public class MainWindowController implements Initializable{
         String[] solution = solutionFromServer.split("\\|");
         for(int i=0; i<solution.length; ++i)
         {
-            if (solution[i].equals("done"))
+            if (solution[i].equals("done") || solution[i].equals(""))
             {
                 break;
             }
@@ -152,12 +145,9 @@ public class MainWindowController implements Initializable{
             builder.append("\n");
         }
 
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("Top Scorers");
-        alert.setHeaderText("Top Scores For level " + Integer.toString(controller.getLevel()));
-        alert.setContentText(builder.toString());
-        alert.showAndWait().ifPresent(rs -> {
-        });
+        MessageBoxDisplayer.showInfo("Top Scorers",
+                "Top Scores For level " + Integer.toString(controller.getLevel()),
+                builder.toString());
     }
     public void HandleTopTenAllLevels()
     {

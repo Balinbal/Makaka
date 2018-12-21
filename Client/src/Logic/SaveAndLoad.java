@@ -1,7 +1,5 @@
 package Logic;
 
-import view.MainWindowController;
-
 import java.io.*;
 
 public class SaveAndLoad {

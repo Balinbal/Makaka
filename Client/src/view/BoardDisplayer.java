@@ -12,6 +12,7 @@ import java.io.FileNotFoundException;
 public class BoardDisplayer extends Canvas {
 
     private StringProperty pipeImageFolder;
+    private StringProperty serverUrl;
     private StringProperty startImageName;
     private StringProperty goalImageName;
     private StringProperty horizontalImageName;
@@ -92,10 +93,13 @@ public class BoardDisplayer extends Canvas {
         return board[0].length;
     }
 
+    public String getServerUrl() {
+        return serverUrl.get();
+    }
+
     public String getStartImageName() {
         return startImageName.get();
     }
-
 
     public String getGoalImageName() {
         return goalImageName.get();
@@ -130,6 +134,10 @@ public class BoardDisplayer extends Canvas {
         this.startImageName.set(starImageName);
     }
 
+    public void setServerUrl(String serverUrl) {
+        this.serverUrl.set(serverUrl);
+    }
+
     public void setGoalImageName(String goalImageName) {
         this.goalImageName.set(goalImageName);
     }
@@ -161,6 +169,7 @@ public class BoardDisplayer extends Canvas {
     public BoardDisplayer(){
         pipeImageFolder = new SimpleStringProperty();
         startImageName = new SimpleStringProperty();
+        serverUrl = new SimpleStringProperty();
         goalImageName = new SimpleStringProperty();
         horizontalImageName = new SimpleStringProperty();
         verticalImageName = new SimpleStringProperty();
