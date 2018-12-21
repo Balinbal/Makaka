@@ -1,12 +1,20 @@
 package test;
 
 //import java.util.Arrays;
+import ClientHandler.ServletHandler;
+
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class MainTrain {
 
     public static void main(String[] args) throws InterruptedException {
+
+
+        String board = "S-7;F-J;L-G;";
+        ServletHandler h = new ServletHandler();
+        h.handle(board);
+
 
         try {
             ExecutorService exec = Executors.newFixedThreadPool(5);

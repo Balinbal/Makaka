@@ -233,9 +233,7 @@ public class MainWindowController implements Initializable{
                         }
                 );
 
-            } catch (InterruptedException e) {
-            }
-
+            } catch (InterruptedException e) { }
         }
     }
 

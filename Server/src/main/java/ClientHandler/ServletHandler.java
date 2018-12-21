@@ -1,5 +1,5 @@
 package ClientHandler;
-import Algorithms.BestFirstSearch;
+import Algorithms.DFSSearcher;
 import Board.MatrixBoard;
 import Board.Position;
 import Board.Solution;
@@ -18,13 +18,9 @@ public class ServletHandler {
     private BufferedReader reader;
     private PrintWriter writer;
 
-//    public MyCHandler(Solver<T, P> solver, CacheManager<P> cacheManager) {
-//        this.solver = solver;
-//        this.cacheManager = cacheManager;
-//    }
 
     public ServletHandler() {
-        this.solver = new PipeGameSolver(new BestFirstSearch<>());
+        this.solver = new PipeGameSolver(new DFSSearcher<>());
         this.cacheManager = new FileManager<Position>();
     }
 
