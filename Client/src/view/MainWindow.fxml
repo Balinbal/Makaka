@@ -39,7 +39,6 @@
             <Menu mnemonicParsing="false" text="Top 10">
               <items>
                 <MenuItem mnemonicParsing="false" onAction="#HandleTopTenCurrentLevel" text="This level" />
-                  <MenuItem mnemonicParsing="false" onAction="#HandleTopTenAllLevels" text="All levels" />
               </items>
             </Menu>
             <Menu mnemonicParsing="false" text="Theme">
