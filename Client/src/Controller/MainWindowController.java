@@ -9,6 +9,7 @@ import javafx.scene.control.Label;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import Logic.SaveAndLoad;
+import javafx.util.Duration;
 import view.BoardDisplayer;
 import view.CustomBorderPane;
 import view.MessageBoxDisplayer;
@@ -47,26 +48,28 @@ public class MainWindowController implements Initializable{
         String res = ServerPickerController.show(this.controller.getServer());
         this.controller.setServer(res);
     }
+
+    private void handleTheme(String theme) {
+        borderPane.changeTheme(theme);
+        boardDisplayer.setTheme(theme);
+        changeBackgroundMusic();
+    }
+
     public void HandleThemeMario()
     {
-        borderPane.changeTheme("mario");
-        boardDisplayer.setTheme("mario");
-        changeBackgroundMusic();
+       handleTheme("mario");
     }
 
     public void HandleThemeSilver()
     {
-        borderPane.changeTheme("silver");
-        boardDisplayer.setTheme("silver");
-        changeBackgroundMusic();
+        handleTheme("silver");
     }
 
     public void HandleThemeDefault()
     {
-        borderPane.changeTheme("default");
-        boardDisplayer.setTheme("default");
-        changeBackgroundMusic();
+        handleTheme("default");
     }
+    
     public void HandleDoneButton()
     {
         char[][] board = this.boardDisplayer.getBoard();
@@ -162,7 +165,12 @@ public class MainWindowController implements Initializable{
         String musicFileName = borderPane.getBackgroundMusicFileFolder().replace("{theme}", borderPane.getTheme())
                 + borderPane.getBackgroundMusicFileName();
         Media song = new Media(new File(musicFileName).toURI().toString());
-        this.backgroundMusicPlayer= new MediaPlayer(song);
+        this.backgroundMusicPlayer = new MediaPlayer(song);
+        this.backgroundMusicPlayer.setOnEndOfMedia(new Runnable() {
+            public void run() {
+                backgroundMusicPlayer.seek(Duration.ZERO);
+            }
+        });
         this.backgroundMusicPlayer.play();
     }
 
