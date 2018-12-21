@@ -1,5 +1,6 @@
 package Logic;
 
+import Controller.BoardController;
 import Model.ScoreRepresentation;
 
 import java.io.BufferedReader;
@@ -49,14 +50,7 @@ public class HTTPServerCommunicator implements  IServerCommunicator {
         try {
             String res = this.get(HTTPServerCommunicator.getLevelAPI, "?level=" + Integer.toString(level)).toString();
             res = res.replace("X", "|");
-            String[] splitted = res.split(";");
-            char[][] ret = new char[splitted.length][splitted[0].length()];
-            for (int i = 0; i < splitted.length; ++i) {
-                for (int j = 0; j < splitted[0].length(); ++j) {
-                    ret[i][j] = splitted[i].charAt(j);
-                }
-            }
-            return ret;
+            return BoardController.fromString(res);
 
         } catch (Exception e) {
             return new char[][]{};

@@ -1,6 +1,7 @@
 package Controller;
 
 import Model.ScoreRepresentation;
+import Model.StageState;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -12,6 +13,7 @@ import Logic.SaveAndLoad;
 import javafx.util.Duration;
 import view.BoardDisplayer;
 import view.CustomBorderPane;
+import view.Main;
 import view.MessageBoxDisplayer;
 
 import java.io.File;
@@ -238,11 +240,25 @@ public class MainWindowController implements Initializable{
     }
 
     public void HandleSave(ActionEvent actionEvent) {
-        SaveAndLoad.saveSolution(this.controller.getLevel(), this.boardDisplayer.getBoard(),MainWindowController.CurrentUser);
+        StageState state = new StageState(this.boardDisplayer.getBoard(), this.controller.getLevel(), this.steps, this.time);
+        SaveAndLoad.saveState(state);
     }
 
     public void HandleLoad(ActionEvent actionEvent){
-        this.boardDisplayer.setBoard(SaveAndLoad.LoadSolution(this.controller.getLevel(),MainWindowController.CurrentUser));
+        StageState state = SaveAndLoad.LoadSolution();
+        if (state != null) {
+            this.controller.setLevel(state.getLevel());
+            this.boardDisplayer.setBoard(state.getBoard());
+            this.steps = state.getSteps();
+            numberOfSteps.setText(Integer.toString(this.steps));
+            this.time = state.getTime();
+            this.boardDisplayer.redraw();
+        }
+
+    }
+
+    public void HandleClose(ActionEvent actionEvent){
+        Main.active.close();
     }
 }
 

@@ -12,8 +12,11 @@ import java.util.Optional;
 
 public class Main extends Application {
 
+    public static Stage active;
+
     @Override
     public void start(Stage primaryStage) throws Exception{
+        active = primaryStage;
         // create a text input dialog
         TextInputDialog td = new TextInputDialog("Enter your name");
 

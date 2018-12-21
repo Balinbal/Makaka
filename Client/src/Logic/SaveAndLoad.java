@@ -1,79 +1,61 @@
 package Logic;
 
+import Model.StageState;
+import javafx.stage.FileChooser;
+import view.Main;
+import view.MessageBoxDisplayer;
+
 import java.io.*;
 
 public class SaveAndLoad {
-    private static String repository = "repository";
-//    private boolean isDirCreated = false;
 
-    private static boolean createDirIfNeeded() {
-        // Check it the directory where we store the files was created, if not create it.
-        File dir = new File(repository);
-        if (!(dir.exists())) {
-            return dir.mkdir();
+    public static void saveState(StageState state) {
+        String path = getPathWithPicker(true);
+        if (path == null) {
+            MessageBoxDisplayer.showWarn("Not saved", "State not saved!", "No file was picked");
+        } else {
+            state.toFile(path);
+            MessageBoxDisplayer.showInfo("Saved successfully!", "Stage state was saved","");
         }
-        return true;
     }
 
-    public static void saveSolution(int level, char[][]board,String playerName) {
 
-        try {
-            if (createDirIfNeeded()) {
-            File filePath = new File(repository, playerName+"-"+String.valueOf(level));
+    public static StageState LoadSolution() {
+        String path = getPathWithPicker(false);
 
-            if (board!= null) {
-            BufferedWriter writer = new BufferedWriter(new FileWriter(filePath+".txt"));
-            writer.write (ConvertBoardToString(board));
-
-            //Close writer
-            writer.close();
-
+        if (path == null) {
+            MessageBoxDisplayer.showWarn("Failed", "State not loaded!", "No file was picked");
+        } else {
+            StageState ret = StageState.fromFile(path);
+            if (ret == null) {
+                MessageBoxDisplayer.showWarn("Failed", "State not loaded!", "Failed to load state");
             }
+            else {
+                MessageBoxDisplayer.showInfo("Success", "State loaded", "Stage " + String.valueOf(ret.getLevel())+
+                        " is loaded at your last state! Good luck!");
             }
-        } catch (IOException exception) {
-            System.out.println(String.join(": ", "Couldn't saveSolution file error", exception.toString()));
+            return ret;
         }
+        return null;
     }
 
+    private static String getPathWithPicker(boolean isSave) {
+        FileChooser fileChooser = new FileChooser();
 
-    public static char[][] LoadSolution(int level,String playerName) {
+        //Set extension filter for text files
+        FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("PIP files", "*.pip");
+        fileChooser.getExtensionFilters().add(extFilter);
 
-        try {
-                String board=null;
-                File filePath = new File(repository, playerName+"-"+String.valueOf(level)+".txt");
-                if (filePath.exists())
-                {
-                    BufferedReader reader= new BufferedReader(new FileReader(filePath));
-                    board = reader.readLine();
-                    //Close reader
-                    reader.close();
-                    String[] splitted = board.split(";");
-                    char[][] ret = new char[splitted.length][splitted[0].length()];
-                    for (int i = 0; i < splitted.length; ++i) {
-                        for (int j = 0; j < splitted[0].length(); ++j) {
-                            ret[i][j] = splitted[i].charAt(j);
-                        }
-                    }
-                    return (ret);
-                }
-        } catch (IOException exception) {
-            System.out.println(String.join(": ", "Couldn't saveSolution file error", exception.toString()));
-            return new char[][]{};
+        //Show save file dialog
+        File file;
+        if (isSave) {
+            file = fileChooser.showSaveDialog(Main.active);
+
         }
-        return new char[0][];
-    }
-
-    private static String ConvertBoardToString(char[][] board)
-    {
-        String stringBoard="";
-        for(int i=0; i<board.length; i++) {
-            for(int j=0; j<board[i].length; j++) {
-                stringBoard += board[i][j];
-            }
-            stringBoard+=";";
+        else {file = fileChooser.showOpenDialog(Main.active); }
+        if (file == null) {
+            return null;
         }
-        return stringBoard.toString();
+        return file.getPath();
     }
-
-
 }

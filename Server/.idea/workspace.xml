@@ -3,15 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="ef14909f-1b73-409f-b2aa-880c1b17e50d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/production/src/view/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/production/src/view/MainWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/resources/themes/red/bg/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/resources/themes/red/board/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/resources/themes/red/board/f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/resources/themes/red/board/g.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/resources/themes/red/board/horizontal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/resources/themes/red/board/j.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/resources/themes/red/board/l.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/resources/themes/red/board/s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/resources/themes/red/board/vertical.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/resources/themes/red/sound/bg.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/src/Controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Controller/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/Controller/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Controller/MainWindowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/src/Logic/HTTPServerCommunicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Logic/HTTPServerCommunicator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Logic/IServerCommunicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Logic/IServerCommunicator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/src/Logic/SaveAndLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Logic/SaveAndLoad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/view/BoardDisplayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/view/BoardDisplayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/src/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/view/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/src/view/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/view/MainWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/view/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Controller/MainWindowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -80,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/GetLevelServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="369">
               <caret line="32" column="41" selection-end-line="43" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -92,7 +99,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Model/Score.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
@@ -347,7 +354,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16334000" />
+    <option name="totallyTimeSpent" value="16940000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -616,16 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GetLevelServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="32" column="41" selection-end-line="43" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TopSolversForLevelServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -650,6 +647,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GetLevelServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="32" column="41" selection-end-line="43" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -28,7 +28,7 @@
             <items>
                   <MenuItem mnemonicParsing="false" text="Save"  onAction="#HandleSave"/>
                   <MenuItem mnemonicParsing="false" text="Load" onAction="#HandleLoad"/>
-              <MenuItem mnemonicParsing="false" text="Close" />
+              <MenuItem mnemonicParsing="false" text="Close"  onAction="#HandleClose"/>
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Settings">
@@ -74,7 +74,7 @@
                         <Font name="BN Cloud" size="24.0" />
                      </font>
                   </Label>
-                  <Label prefHeight="18.0" prefWidth="38.0" text="steps:" textFill="#155a97">
+                  <Label text="steps:" textFill="#155a97">
                      <font>
                         <Font size="24.0" />
                      </font>

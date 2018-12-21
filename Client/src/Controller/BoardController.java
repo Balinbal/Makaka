@@ -95,4 +95,30 @@ public class BoardController {
         return  this.level;
     }
 
+    public void setLevel(int level)
+    {
+        this.level = level;
+    }
+
+    public static char[][] fromString(String board) {
+        String[] splitted = board.split(";");
+        char[][] ret = new char[splitted.length][splitted[0].length()];
+        for (int i = 0; i < splitted.length; ++i) {
+            for (int j = 0; j < splitted[0].length(); ++j) {
+                ret[i][j] = splitted[i].charAt(j);
+            }
+        }
+        return (ret);
+    }
+
+    public static String toString(char[][] board) {
+        StringBuilder builder = new StringBuilder();
+        for (int i = 0; i < board.length; ++i) {
+            for (int j = 0; j < board[i].length; ++j) {
+                builder.append(board[i][j]);
+            }
+            builder.append(';');
+        }
+        return builder.toString();
+    }
 }

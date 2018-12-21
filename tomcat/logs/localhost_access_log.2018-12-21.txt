@@ -88,3 +88,11 @@
 127.0.0.1 - - [21/Dec/2018:10:59:14 +0200] "GET /PipeServer/solve?board=SXFG;L--J; HTTP/1.1" 200 4
 127.0.0.1 - - [21/Dec/2018:10:59:18 +0200] "GET /PipeServer/setscore?user=sdf&level=2&time=25&steps=0 HTTP/1.1" 200 7
 127.0.0.1 - - [21/Dec/2018:10:59:18 +0200] "GET /PipeServer/getlevel?level=3 HTTP/1.1" 200 11
+127.0.0.1 - - [21/Dec/2018:13:09:12 +0200] "GET /PipeServer/solve?board=SJG;L-J;FFF; HTTP/1.1" 200 4
+127.0.0.1 - - [21/Dec/2018:13:09:15 +0200] "GET /PipeServer/setscore?user=roy&level=1&time=53&steps=1 HTTP/1.1" 200 19
+127.0.0.1 - - [21/Dec/2018:13:09:15 +0200] "GET /PipeServer/getlevel?level=2 HTTP/1.1" 200 9
+127.0.0.1 - - [21/Dec/2018:13:09:46 +0200] "GET /PipeServer/getlevel?level=1 HTTP/1.1" 200 3
+127.0.0.1 - - [21/Dec/2018:13:10:53 +0200] "GET /PipeServer/solve?board=S-FG;L--J; HTTP/1.1" 200 4
+127.0.0.1 - - [21/Dec/2018:13:10:54 +0200] "GET /PipeServer/setscore?user=asdas&level=2&time=28&steps=5 HTTP/1.1" 200 7
+127.0.0.1 - - [21/Dec/2018:13:10:54 +0200] "GET /PipeServer/getlevel?level=3 HTTP/1.1" 200 11
+127.0.0.1 - - [21/Dec/2018:13:11:36 +0200] "GET /PipeServer/getlevel?level=1 HTTP/1.1" 200 3
